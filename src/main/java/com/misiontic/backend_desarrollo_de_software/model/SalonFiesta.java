@@ -21,7 +21,7 @@ public class SalonFiesta {
     @Column(name = "capacity")
     private int capacity;
     
-    @Column(name = "descripcion")
+    @Column(name = "descripcion", length = 250)
     private String description;
 
     @Column(name = "categoria")

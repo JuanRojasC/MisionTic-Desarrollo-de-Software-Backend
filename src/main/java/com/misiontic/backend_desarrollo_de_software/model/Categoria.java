@@ -15,7 +15,7 @@ public class Categoria {
     @Column( name = "nombre", length = 45)
     private String name;
 
-    @Column( name = "descripcion" )
+    @Column( name = "descripcion", length = 250)
     private String description;
 
 }

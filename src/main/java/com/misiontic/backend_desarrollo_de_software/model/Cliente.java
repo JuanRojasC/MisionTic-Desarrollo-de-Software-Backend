@@ -1,8 +1,6 @@
 package com.misiontic.backend_desarrollo_de_software.model;
 
-
 import lombok.Data;
-
 import javax.persistence.*;
 
 @Entity
@@ -12,7 +10,7 @@ public class Cliente {
 
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO)
-    private Long id;
+    private Long idClient;
 
     @Column(name = "correo", length = 45)
     private String email;
@@ -21,9 +19,9 @@ public class Cliente {
     private String password;
 
     @Column(name = "edad")
-    private int age;
+    private Integer age;
 
-    @Column(name = "nombre")
+    @Column(name = "nombre", length = 250)
     private String name;
 
 
