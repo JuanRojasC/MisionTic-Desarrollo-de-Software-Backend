@@ -17,7 +17,11 @@ public class ClienteService {
         this.clienteRepository = clienteRepository;
     }
 
-    public Cliente guardarCliente(Cliente c) { return clienteRepository.save(c);}
+    public Cliente guardarCliente(Cliente c) {
+        return clienteRepository.save(c);
+    }
 
-    public Collection<Cliente> buscarTodosLosClientes() {return clienteRepository.findAll();}
+    public Collection<Cliente> buscarTodosLosClientes() {
+        return clienteRepository.findAll();
+    }
 }
