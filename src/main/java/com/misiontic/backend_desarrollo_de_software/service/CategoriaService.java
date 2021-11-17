@@ -1,7 +1,9 @@
 package com.misiontic.backend_desarrollo_de_software.service;
 
 import com.misiontic.backend_desarrollo_de_software.model.Categoria;
+import com.misiontic.backend_desarrollo_de_software.model.Categoria;
 import com.misiontic.backend_desarrollo_de_software.repository.CategoriaRepository;
+import lombok.extern.log4j.Log4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -9,6 +11,7 @@ import java.util.Collection;
 import java.util.Optional;
 
 @Service
+@Log4j
 public class CategoriaService {
 
     private CategoriaRepository categoriaRepository;
@@ -27,7 +30,14 @@ public class CategoriaService {
 //    }
 
     public Categoria guardarCategoria(Categoria c){
-        return categoriaRepository.save(c);
+        try{
+            Categoria categoria = categoriaRepository.save(c);
+            log.info("Categoria con id: " + c.getId() + " guardada");
+            return  categoria;
+        }catch (Exception e){
+            log.error("Categoria con id: " + c.getId() + " no pudo ser guardar -- ERROR: " + e.getMessage());
+            return null;
+        }
     }
 
 //    public Categoria actualizarCategoria(Categoria c){
@@ -42,6 +52,7 @@ public class CategoriaService {
 //    }
 
     public Collection<Categoria> buscarTodasLasCategorias(){
+        log.info("Todas las categorias han sido buscadas");
         return categoriaRepository.findAll();
     }
 }
