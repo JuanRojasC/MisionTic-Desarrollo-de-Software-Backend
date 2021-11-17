@@ -1,7 +1,9 @@
 package com.misiontic.backend_desarrollo_de_software.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 import javax.persistence.*;
+import java.util.Set;
 
 @Entity
 @Table( name = "categorias")
@@ -17,5 +19,9 @@ public class Categoria {
 
     @Column( name = "descripcion" )
     private String description;
+
+    @OneToMany(mappedBy = "category", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @JsonIgnore
+    private Set<SalonFiesta> salonesFiestas;
 
 }

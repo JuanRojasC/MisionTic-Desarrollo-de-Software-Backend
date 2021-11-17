@@ -1,7 +1,9 @@
 package com.misiontic.backend_desarrollo_de_software.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 import javax.persistence.*;
+import java.util.Set;
 
 @Entity
 @Table(name= "salonfiesta" )
@@ -9,7 +11,7 @@ import javax.persistence.*;
 public class SalonFiesta {
 
     @Id
-    @GeneratedValue(strategy= GenerationType.AUTO)
+    @GeneratedValue(strategy= GenerationType.IDENTITY)
     private Long id;
 
     @Column(name = "propietario", length = 45)
@@ -25,9 +27,17 @@ public class SalonFiesta {
     private String description;
 
     @Column(name = "categoria")
-    private String category;  // REVISAR
+    @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @JoinColumn(name = "id")
+    private Categoria category;
 
+    @OneToMany(mappedBy = "partyroom", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @JsonIgnore
+    private Set<Mensaje> messages;
 
+    @OneToMany(mappedBy = "partyroom", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @JsonIgnore
+    private Set<Reserva> reservations;
 
 
 
