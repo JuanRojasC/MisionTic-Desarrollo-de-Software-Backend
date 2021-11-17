@@ -1,6 +1,7 @@
 package com.misiontic.backend_desarrollo_de_software.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
 import javax.persistence.*;
 import java.util.Set;
@@ -21,7 +22,7 @@ public class Categoria {
     private String description;
 
     @OneToMany(mappedBy = "category", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    @JsonIgnore
-    private Set<SalonFiesta> salonesFiestas;
+    @JsonIgnoreProperties("category")
+    private Set<SalonFiesta> partyrooms;
 
 }

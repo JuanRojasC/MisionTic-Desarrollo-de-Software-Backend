@@ -9,7 +9,7 @@ import javax.persistence.*;
 public class Cliente {
 
     @Id
-    @GeneratedValue(strategy= GenerationType.AUTO)
+    @GeneratedValue(strategy= GenerationType.IDENTITY)
     private Long idClient;
 
     @Column(name = "correo", length = 45)
@@ -23,7 +23,5 @@ public class Cliente {
 
     @Column(name = "nombre", length = 250)
     private String name;
-
-
 
 }

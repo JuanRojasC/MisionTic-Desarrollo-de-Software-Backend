@@ -1,6 +1,5 @@
 package com.misiontic.backend_desarrollo_de_software.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 import javax.persistence.*;
 import java.util.Set;
@@ -32,18 +31,10 @@ public class SalonFiesta {
     private Categoria category;
 
     @OneToMany(mappedBy = "partyroom", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    @JsonIgnore
     private Set<Mensaje> messages;
 
     @OneToMany(mappedBy = "partyroom", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    @JsonIgnore
     private Set<Reserva> reservations;
-
-
-
-
-
-
 
 }
 
