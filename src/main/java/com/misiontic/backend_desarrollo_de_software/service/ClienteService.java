@@ -22,10 +22,10 @@ public class ClienteService {
     public Cliente guardarCliente(Cliente c) {
         try{
             Cliente cliente = clienteRepository.save(c);
-            log.info("Cliente con id: " + c.getIdClient() + " guardado");
+            log.info("Cliente con id: " + c.getIdClient() + " ha sido guardado");
             return  cliente;
         }catch (Exception e){
-            log.error("Cliente con id: " + c.getIdClient() + " no pudo ser guardo -- ERROR: " + e.getMessage());
+            log.error("Cliente con id: " + c.getIdClient() + " no pudo ser guardado -- ERROR: " + e.getMessage());
             return null;
         }
     }

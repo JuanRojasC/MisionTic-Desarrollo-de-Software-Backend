@@ -32,10 +32,10 @@ public class CategoriaService {
     public Categoria guardarCategoria(Categoria c){
         try{
             Categoria categoria = categoriaRepository.save(c);
-            log.info("Categoria con id: " + c.getId() + " guardada");
+            log.info("Categoria con id: " + c.getId() + " ha sido guardada");
             return  categoria;
         }catch (Exception e){
-            log.error("Categoria con id: " + c.getId() + " no pudo ser guardar -- ERROR: " + e.getMessage());
+            log.error("Categoria con id: " + c.getId() + " no pudo ser guardada -- ERROR: " + e.getMessage());
             return null;
         }
     }
