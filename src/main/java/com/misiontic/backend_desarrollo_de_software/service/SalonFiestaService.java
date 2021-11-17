@@ -9,8 +9,7 @@ package com.misiontic.backend_desarrollo_de_software.service;
  *
  * @author Iván Dueñas
  */
-
-import com.misiontic.backend_desarrollo_de_software.model.Salon de Fiesta;
+import com.misiontic.backend_desarrollo_de_software.model.SalonFiesta;
 import com.misiontic.backend_desarrollo_de_software.model.SalonFiesta;
 import com.misiontic.backend_desarrollo_de_software.repository.SalonFiestaRepository;
 import java.util.Collection;
