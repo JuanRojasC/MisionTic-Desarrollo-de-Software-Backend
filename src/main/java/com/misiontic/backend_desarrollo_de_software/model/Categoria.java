@@ -22,6 +22,7 @@ public class Categoria {
     private String description;
 
     @OneToMany(mappedBy = "category", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @JsonIgnoreProperties("category")
     private Set<SalonFiesta> partyrooms;
 
 }

@@ -3,7 +3,7 @@ package com.misiontic.backend_desarrollo_de_software.model;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
 import javax.persistence.*;
-import java.util.Set;
+import java.util.List;
 
 @Entity
 @Table(name= "salonfiesta" )
@@ -31,10 +31,12 @@ public class SalonFiesta {
     private Categoria category;
 
     @OneToMany(mappedBy = "partyroom", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    private Set<Mensaje> messages;
+    @JsonIgnoreProperties({"partyroom", "client"})
+    private List<Mensaje> messages;
 
     @OneToMany(mappedBy = "partyroom", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    private Set<Reserva> reservations;
+    @JsonIgnoreProperties({"partyroom", "client"})
+    private List<Reserva> reservations;
 
 }
 

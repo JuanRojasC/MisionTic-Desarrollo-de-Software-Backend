@@ -190,7 +190,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"owner\":\"BestParties sas\",\r\n    \"capacity\":200,\r\n    \"category\":{\r\n        \"id\":1\r\n    },\r\n    \"name\":\"Salon para viejoteca\",\r\n    \"description\":\"Salon para viejoteca\"\r\n}",
+					"raw": "",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -201,6 +201,315 @@
 					"raw": "{{url_base}}{{partyroom_all}}",
 					"host": [
 						"{{url_base}}{{partyroom_all}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Guardar Cliente",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function(){\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response equal to Request Data\", function(){\r",
+							"    const res = pm.response.json();\r",
+							"    pm.collectionVariables.set(\"id_cliente\", res.idClient);\r",
+							"    pm.collectionVariables.set(\"name_cliente\", res.name);\r",
+							"    pm.collectionVariables.set(\"email_cliente\", res.email);\r",
+							"    pm.collectionVariables.set(\"password_cliente\", res.password);\r",
+							"    pm.collectionVariables.set(\"age_cliente\", res.age);\r",
+							"    pm.expect(\"Agustin Parra\").to.eql(res.name);\r",
+							"    pm.expect(\"agustin@gmail.com\").to.eql(res.email);\r",
+							"    pm.expect(\"agustin123\").to.eql(res.password);\r",
+							"    pm.expect(18).to.eql(res.age);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"name\":\"Agustin Parra\",\r\n   \"email\":\"agustin@gmail.com\",\r\n   \"password\":\"agustin123\",\r\n   \"age\":18\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url_base}}{{client_save}}",
+					"host": [
+						"{{url_base}}{{client_save}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar todos los Clientes",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function(){\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response array contain category saved\", function(){\r",
+							"    const res = pm.response.json();\r",
+							"    const id = pm.collectionVariables.get(\"id_cliente\");\r",
+							"    const cliente = res.find(ele => ele.idClient === id);\r",
+							"    const name = pm.collectionVariables.get(\"name_cliente\");\r",
+							"    const email = pm.collectionVariables.get(\"email_cliente\");\r",
+							"    const password = pm.collectionVariables.get(\"password_cliente\");\r",
+							"    const age = pm.collectionVariables.get(\"age_cliente\");\r",
+							"    pm.expect(name).to.eql(cliente.name);\r",
+							"    pm.expect(email).to.eql(cliente.email);\r",
+							"    pm.expect(password).to.eql(cliente.password);\r",
+							"    pm.expect(age).to.eql(cliente.age);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url_base}}{{client_all}}",
+					"host": [
+						"{{url_base}}{{client_all}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Guardar Mensaje",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function(){\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response equal to Request Data\", function(){\r",
+							"    const res = pm.response.json();\r",
+							"    pm.collectionVariables.set(\"id_mensaje\", res.idMessage);\r",
+							"    pm.collectionVariables.set(\"messageText_mensaje\", res.messageText);\r",
+							"    pm.collectionVariables.set(\"client_mensaje\", res.client);\r",
+							"    pm.collectionVariables.set(\"partyroom_mensaje\", res.partyroom);\r",
+							"    pm.expect(\"Me gusta.\").to.eql(res.messageText);\r",
+							"    pm.expect(1).to.eql(res.client.idClient);\r",
+							"    pm.expect(1).to.eql(res.partyroom.id);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"messageText\":\"Me gusta.\",\r\n   \"client\":{\r\n      \"idClient\":1\r\n   },\r\n   \"partyroom\":{\r\n      \"id\":1\r\n   }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url_base}}{{message_save}}",
+					"host": [
+						"{{url_base}}{{message_save}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar todos los Mensajes",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function(){\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response array contain category saved\", function(){\r",
+							"    const res = pm.response.json();\r",
+							"    const id = pm.collectionVariables.get(\"id_mensaje\");\r",
+							"    const mensaje = res.find(ele => ele.idMessage === id);\r",
+							"    const messageText = pm.collectionVariables.get(\"messageText_mensaje\");\r",
+							"    const client = pm.collectionVariables.get(\"client_mensaje\");\r",
+							"    const partyroom = pm.collectionVariables.get(\"partyroom_mensaje\");\r",
+							"    pm.expect(messageText).to.eql(mensaje.messageText);\r",
+							"    pm.expect(client.idClient).to.eql(mensaje.client.idClient);\r",
+							"    pm.expect(partyroom.id).to.eql(mensaje.partyroom.id);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url_base}}{{message_all}}",
+					"host": [
+						"{{url_base}}{{message_all}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Guardar Reserva",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function(){\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response equal to Request Data\", function(){\r",
+							"    const res = pm.response.json();\r",
+							"    pm.collectionVariables.set(\"id_reserva\", res.idReservation);\r",
+							"    pm.collectionVariables.set(\"startDate_reserva\", res.startDate);\r",
+							"    pm.collectionVariables.set(\"devolutionDate_reserva\", res.devolutionDate);\r",
+							"    pm.collectionVariables.set(\"status_reserva\", res.status);\r",
+							"    pm.collectionVariables.set(\"partyroom_reserva\", res.partyroom);\r",
+							"    pm.collectionVariables.set(\"client_reserva\", res.client);\r",
+							"    pm.collectionVariables.set(\"score_reserva\", res.score);\r",
+							"    pm.expect(\"2020-12-20T00:00:00.000+00:00\").to.eql(res.startDate);\r",
+							"    pm.expect(\"2020-12-20T00:00:00.000+00:00\").to.eql(res.devolutionDate);\r",
+							"    pm.expect(\"created\").to.eql(res.status);\r",
+							"    pm.expect(1).to.eql(res.partyroom.id);\r",
+							"    pm.expect(1).to.eql(res.client.idClient);\r",
+							"    pm.expect(null).to.eql(res.score);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"startDate\":\"2020-12-20\",\r\n   \"devolutionDate\":\"2020-12-20\",\r\n   \"client\":{\r\n      \"idClient\":1\r\n   },\r\n   \"partyroom\":{\r\n      \"id\":1\r\n   }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url_base}}{{reservation_save}}",
+					"host": [
+						"{{url_base}}{{reservation_save}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar Todas las Reservaciones",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function(){\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response array contain category saved\", function(){\r",
+							"    const res = pm.response.json();\r",
+							"    const id = pm.collectionVariables.get(\"id_reserva\");\r",
+							"    const reserva = res.find(ele => ele.idReservation === id);\r",
+							"    const startDate = pm.collectionVariables.get(\"startDate_reserva\");\r",
+							"    const devolutionDate = pm.collectionVariables.get(\"devolutionDate_reserva\");\r",
+							"    const status = pm.collectionVariables.get(\"status_reserva\");\r",
+							"    const client = pm.collectionVariables.get(\"client_reserva\");\r",
+							"    const partyroom = pm.collectionVariables.get(\"partyroom_reserva\");\r",
+							"    pm.expect(startDate).to.eql(reserva.startDate);\r",
+							"    pm.expect(devolutionDate).to.eql(reserva.devolutionDate);\r",
+							"    pm.expect(status).to.eql(reserva.status);\r",
+							"    pm.expect(partyroom.id).to.eql(reserva.partyroom.id);\r",
+							"    pm.expect(client).to.eql(reserva.client.idClient);\r",
+							"    pm.expect(score).to.eql(reserva.score);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url_base}}{{reservation_all}}",
+					"host": [
+						"{{url_base}}{{reservation_all}}"
 					]
 				}
 			},
@@ -249,6 +558,30 @@
 			"value": "/Partyroom/all"
 		},
 		{
+			"key": "client_save",
+			"value": "/Client/save"
+		},
+		{
+			"key": "client_all",
+			"value": "/Client/all"
+		},
+		{
+			"key": "message_save",
+			"value": "/Message/save"
+		},
+		{
+			"key": "message_all",
+			"value": "/Message/all"
+		},
+		{
+			"key": "reservation_save",
+			"value": "/Reservation/save"
+		},
+		{
+			"key": "reservation_all",
+			"value": "/Reservation/all"
+		},
+		{
 			"key": "id_category",
 			"value": ""
 		},
@@ -282,6 +615,70 @@
 		},
 		{
 			"key": "category_partyroom",
+			"value": ""
+		},
+		{
+			"key": "id_cliente",
+			"value": ""
+		},
+		{
+			"key": "name_cliente",
+			"value": ""
+		},
+		{
+			"key": "email_cliente",
+			"value": ""
+		},
+		{
+			"key": "password_cliente",
+			"value": ""
+		},
+		{
+			"key": "age_cliente",
+			"value": ""
+		},
+		{
+			"key": "id_mensaje",
+			"value": ""
+		},
+		{
+			"key": "messageText_mensaje",
+			"value": ""
+		},
+		{
+			"key": "client_mensaje",
+			"value": ""
+		},
+		{
+			"key": "partyroom_mensaje",
+			"value": ""
+		},
+		{
+			"key": "id_reserva",
+			"value": ""
+		},
+		{
+			"key": "startDate_reserva",
+			"value": ""
+		},
+		{
+			"key": "devolutionDate_reserva",
+			"value": ""
+		},
+		{
+			"key": "status_reserva",
+			"value": ""
+		},
+		{
+			"key": "partyroom_reserva",
+			"value": ""
+		},
+		{
+			"key": "client_reserva",
+			"value": ""
+		},
+		{
+			"key": "score_reserva",
 			"value": ""
 		}
 	]

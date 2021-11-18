@@ -16,11 +16,11 @@ public class Mensaje {
     @Column( name = "texto", length = 250)
     private String messageText;
 
-    @ManyToOne()
-    @JoinColumn( name = "id")
-    @JsonIgnoreProperties({"messages", "reservations"})
+    @ManyToOne
+    @JsonIgnoreProperties({"messages", "reservations", "client"})
     private SalonFiesta partyroom;
 
-    @OneToOne()
+    @ManyToOne
+    @JsonIgnoreProperties({"messages", "reservations", "client"})
     private Cliente client;
 }

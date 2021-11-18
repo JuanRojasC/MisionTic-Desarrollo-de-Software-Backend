@@ -23,16 +23,15 @@ public class Reserva {
     @Column(name = "estado", length = 45 )
     private String status = "created"; // Valor por defecto
 
-    @ManyToOne()
-    @JoinColumn( name = "id")
+    @ManyToOne
     @JsonIgnoreProperties("reservations")
     private SalonFiesta partyroom;
 
-    @ManyToOne()
-    @JoinColumn( name = "idClient")
+    @ManyToOne
+    @JsonIgnoreProperties({"messages", "reservations"})
     private Cliente client;
 
     @Column(name = "calificacion")
-    private Long score;
+    private Long score = null;
 
 }

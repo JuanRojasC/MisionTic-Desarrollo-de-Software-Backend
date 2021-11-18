@@ -1,7 +1,9 @@
 package com.misiontic.backend_desarrollo_de_software.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name ="clientes")
@@ -18,10 +20,18 @@ public class Cliente {
     @Column(name = "contrasena", length = 45)
     private String password;
 
+    @Column(name = "nombre", length = 250)
+    private String name;
+
     @Column(name = "edad")
     private Integer age;
 
-    @Column(name = "nombre", length = 250)
-    private String name;
+    @OneToMany(mappedBy = "client", cascade = CascadeType.ALL)
+    @JsonIgnoreProperties("client")
+    private List<Mensaje> messages;
+
+    @OneToMany( mappedBy = "client", cascade = CascadeType.ALL)
+    @JsonIgnoreProperties("client")
+    private List<Reserva> reservations;
 
 }
