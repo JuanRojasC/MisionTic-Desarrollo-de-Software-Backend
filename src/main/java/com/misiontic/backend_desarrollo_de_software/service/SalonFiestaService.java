@@ -40,17 +40,17 @@ public class SalonFiestaService {
             log.info("Salon de fiesta con id: " + id + " no fue encontrado");
             return null;
         }
-        log.info("Salon de fiesta con id: "+ id + " encontrado");
+        log.info("Salon de fiesta con id: "+ id + " ha sido encontrado");
         return salonFiesta.get();
     }
 
     public SalonFiesta guardarSalonFiesta(SalonFiesta c){
         try{
             SalonFiesta salonFiesta = salonFiestaRepository.save(c);
-            log.info("Salon de Fiesta con id: " + c.getId() + " guardado");
+            log.info("Salon de Fiesta con id: " + c.getId() + " ha sido guardado");
             return  salonFiesta;
         }catch (Exception e){
-            log.error("Salon de Fiesta con id: " + c.getId() + " no pudo ser guardo -- ERROR: " + e.getMessage());
+            log.error("Salon de Fiesta con id: " + c.getId() + " no pudo ser guardado -- ERROR: " + e.getMessage());
             return null;
         }
     }
@@ -60,7 +60,7 @@ public class SalonFiestaService {
             SalonFiesta salonFiesta = new SalonFiesta();
             try{
                 salonFiesta = salonFiestaRepository.save(c);
-                log.info("Salon de fiesta con id: " + c.getId() + " actualizado");
+                log.info("Salon de fiesta con id: " + c.getId() + " ha sido actualizado");
             }catch (Exception e){
                 log.info("Salon de fiesta con id: " + c.getId() + " no pudo ser actualizado -- ERROR: " + e.getMessage());
             }
@@ -70,7 +70,7 @@ public class SalonFiestaService {
     }
 
     public void eliminarSalonFiestaPorId(Long id){
-        log.info("Salon de fiesta con id: " + id + " eliminado");
+        log.info("Salon de fiesta con id: " + id + " ha sido eliminado");
         salonFiestaRepository.deleteById(id);
     }
     
