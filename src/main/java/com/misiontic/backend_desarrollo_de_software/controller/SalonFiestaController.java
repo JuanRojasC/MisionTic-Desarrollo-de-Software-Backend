@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/partyroom")
+@RequestMapping("/api/Partyroom")
 public class SalonFiestaController {
     
    private SalonFiestaService salonFiestaService;
@@ -23,7 +23,6 @@ public class SalonFiestaController {
    
    @GetMapping("/all")
    public ResponseEntity<?> buscarTodosLosSalones(){
-        //return ResponseEntity.status(HttpStatus.OK).body(salonFiestaService.buscarTodosLosSalones());
         return ResponseEntity.ok(salonFiestaService.buscarTodosLosSalones());
     }
     

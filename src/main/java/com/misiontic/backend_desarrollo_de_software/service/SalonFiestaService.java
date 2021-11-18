@@ -75,6 +75,7 @@ public class SalonFiestaService {
     }
     
     public Collection<SalonFiesta> buscarTodosLosSalones(){
+        log.info("Todos los salones de fiesta han sido buscados");
         return salonFiestaRepository.findAll();
     }
 }

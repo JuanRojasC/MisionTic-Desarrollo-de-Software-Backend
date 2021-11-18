@@ -1,0 +1,288 @@
+{
+	"info": {
+		"_postman_id": "ef45b133-defd-4fc5-a644-22981fb3018e",
+		"name": "API_DESARROLLO_SOFTWARE_MISIONTIC",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Guardar Categoria",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function(){\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response equal to Request Data\", function(){\r",
+							"    const res = pm.response.json();\r",
+							"    pm.collectionVariables.set(\"id_category\", res.id);\r",
+							"    pm.collectionVariables.set(\"name_category\", res.name);\r",
+							"    pm.collectionVariables.set(\"decription_category\", res.description);\r",
+							"    pm.expect(\"cat1\").to.eql(res.name);\r",
+							"    pm.expect(\"test category\").to.eql(res.description);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"cat1\",\r\n    \"description\":\"test category\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url_base}}{{category_save}}",
+					"host": [
+						"{{url_base}}{{category_save}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar todas las Categorias",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function(){\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response array contain category saved\", function(){\r",
+							"    const res = pm.response.json();\r",
+							"    const id = pm.collectionVariables.get(\"id_category\");\r",
+							"    const category = res.find(ele => ele.id === id);\r",
+							"    const name = pm.collectionVariables.get(\"name_category\");\r",
+							"    const description = pm.collectionVariables.get(\"decription_category\");\r",
+							"    pm.expect(id).to.eql(category.id);\r",
+							"    pm.expect(name).to.eql(category.name);\r",
+							"    pm.expect(description).to.eql(category.description);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url_base}}{{category_all}}",
+					"host": [
+						"{{url_base}}{{category_all}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Guardar Partyroom",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function(){\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response equal to Request Data\", function(){\r",
+							"    const res = pm.response.json();\r",
+							"    pm.collectionVariables.set(\"id_partyroom\", res.id);\r",
+							"    pm.collectionVariables.set(\"name_partyroom\", res.name);\r",
+							"    pm.collectionVariables.set(\"description_partyroom\", res.description);\r",
+							"    pm.collectionVariables.set(\"owner_partyroom\", res.owner);\r",
+							"    pm.collectionVariables.set(\"capacity_partyroom\", res.capacity);\r",
+							"    pm.collectionVariables.set(\"category_partyroom\", res.category);\r",
+							"    pm.expect(\"Salon para viejoteca\").to.eql(res.name);\r",
+							"    pm.expect(\"Salon para viejoteca\").to.eql(res.description);\r",
+							"    pm.expect(\"BestParties sas\").to.eql(res.owner);\r",
+							"    pm.expect(200).to.eql(res.capacity);\r",
+							"    pm.expect(1).to.eql(res.category.id);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"owner\":\"BestParties sas\",\r\n    \"capacity\":200,\r\n    \"category\":{\r\n        \"id\":1\r\n    },\r\n    \"name\":\"Salon para viejoteca\",\r\n    \"description\":\"Salon para viejoteca\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url_base}}{{partyroom_save}}",
+					"host": [
+						"{{url_base}}{{partyroom_save}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar todos los Partyrooms",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function(){\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response array contain category saved\", function(){\r",
+							"    const res = pm.response.json();\r",
+							"    const id = pm.collectionVariables.get(\"id_partyroom\");\r",
+							"    const partyroom = res.find(ele => ele.id === id);\r",
+							"    const name = pm.collectionVariables.get(\"name_partyroom\");\r",
+							"    const description = pm.collectionVariables.get(\"description_partyroom\");\r",
+							"    const owner = pm.collectionVariables.get(\"owner_partyroom\");\r",
+							"    const capacity = pm.collectionVariables.get(\"capacity_partyroom\");\r",
+							"    const category = pm.collectionVariables.get(\"category_partyroom\");\r",
+							"    pm.expect(name).to.eql(partyroom.name);\r",
+							"    pm.expect(description).to.eql(partyroom.description);\r",
+							"    pm.expect(owner).to.eql(partyroom.owner);\r",
+							"    pm.expect(capacity).to.eql(partyroom.capacity);\r",
+							"    pm.expect(category.id).to.eql(partyroom.category.id);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"owner\":\"BestParties sas\",\r\n    \"capacity\":200,\r\n    \"category\":{\r\n        \"id\":1\r\n    },\r\n    \"name\":\"Salon para viejoteca\",\r\n    \"description\":\"Salon para viejoteca\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url_base}}{{partyroom_all}}",
+					"host": [
+						"{{url_base}}{{partyroom_all}}"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "url_base",
+			"value": "http://localhost:8080/api"
+		},
+		{
+			"key": "category_save",
+			"value": "/Category/save"
+		},
+		{
+			"key": "category_all",
+			"value": "/Category/all"
+		},
+		{
+			"key": "partyroom_save",
+			"value": "/Partyroom/save"
+		},
+		{
+			"key": "partyroom_all",
+			"value": "/Partyroom/all"
+		},
+		{
+			"key": "id_category",
+			"value": ""
+		},
+		{
+			"key": "name_category",
+			"value": ""
+		},
+		{
+			"key": "decription_category",
+			"value": ""
+		},
+		{
+			"key": "id_partyroom",
+			"value": ""
+		},
+		{
+			"key": "name_partyroom",
+			"value": ""
+		},
+		{
+			"key": "description_partyroom",
+			"value": ""
+		},
+		{
+			"key": "owner_partyroom",
+			"value": ""
+		},
+		{
+			"key": "capacity_partyroom",
+			"value": ""
+		},
+		{
+			"key": "category_partyroom",
+			"value": ""
+		}
+	]
+}

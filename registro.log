@@ -1,0 +1,27 @@
+[2021-31-17 19:31:51] [INFO ] [CategoriaService:35] Categoria con id: 1 ha sido guardada
+[2021-32-17 19:32:09] [INFO ] [CategoriaService:55] Todas las categorias han sido buscadas
+[2021-42-17 19:42:58] [ERROR] [SalonFiestaService:53] Salon de Fiesta con id: null no pudo ser guardado -- ERROR: detached entity passed to persist: com.misiontic.backend_desarrollo_de_software.model.Categoria; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.misiontic.backend_desarrollo_de_software.model.Categoria
+[2021-43-17 19:43:43] [ERROR] [SalonFiestaService:53] Salon de Fiesta con id: null no pudo ser guardado -- ERROR: could not execute statement; SQL [n/a]; constraint [FKQUL7JD5M1L5E2I6PCVD9JB65F]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2021-45-17 19:45:25] [ERROR] [SalonFiestaService:53] Salon de Fiesta con id: null no pudo ser guardado -- ERROR: could not execute statement; SQL [n/a]; constraint [FKQUL7JD5M1L5E2I6PCVD9JB65F]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2021-47-17 19:47:08] [ERROR] [SalonFiestaService:53] Salon de Fiesta con id: null no pudo ser guardado -- ERROR: could not execute statement; SQL [n/a]; constraint [FKQUL7JD5M1L5E2I6PCVD9JB65F]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2021-48-17 19:48:26] [INFO ] [CategoriaService:35] Categoria con id: 1 ha sido guardada
+[2021-48-17 19:48:26] [INFO ] [CategoriaService:55] Todas las categorias han sido buscadas
+[2021-48-17 19:48:27] [INFO ] [SalonFiestaService:50] Salon de Fiesta con id: 1 ha sido guardado
+[2021-48-17 19:48:27] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-50-17 19:50:29] [INFO ] [CategoriaService:35] Categoria con id: 1 ha sido guardada
+[2021-50-17 19:50:32] [INFO ] [SalonFiestaService:50] Salon de Fiesta con id: 1 ha sido guardado
+[2021-50-17 19:50:36] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-51-17 19:51:11] [INFO ] [CategoriaService:55] Todas las categorias han sido buscadas
+[2021-52-17 19:52:05] [INFO ] [CategoriaService:35] Categoria con id: 1 ha sido guardada
+[2021-52-17 19:52:08] [INFO ] [CategoriaService:55] Todas las categorias han sido buscadas
+[2021-52-17 19:52:17] [INFO ] [SalonFiestaService:50] Salon de Fiesta con id: 1 ha sido guardado
+[2021-52-17 19:52:27] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-52-17 19:52:44] [INFO ] [CategoriaService:55] Todas las categorias han sido buscadas
+[2021-53-17 19:53:18] [INFO ] [CategoriaService:35] Categoria con id: 1 ha sido guardada
+[2021-53-17 19:53:21] [INFO ] [CategoriaService:55] Todas las categorias han sido buscadas
+[2021-53-17 19:53:24] [INFO ] [SalonFiestaService:50] Salon de Fiesta con id: 1 ha sido guardado
+[2021-53-17 19:53:27] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-53-17 19:53:45] [INFO ] [CategoriaService:35] Categoria con id: 1 ha sido guardada
+[2021-53-17 19:53:45] [INFO ] [CategoriaService:55] Todas las categorias han sido buscadas
+[2021-53-17 19:53:45] [INFO ] [SalonFiestaService:50] Salon de Fiesta con id: 1 ha sido guardado
+[2021-53-17 19:53:45] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados

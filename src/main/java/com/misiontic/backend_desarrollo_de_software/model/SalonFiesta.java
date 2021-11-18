@@ -1,5 +1,6 @@
 package com.misiontic.backend_desarrollo_de_software.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
 import javax.persistence.*;
 import java.util.Set;
@@ -25,9 +26,8 @@ public class SalonFiesta {
     @Column(name = "descripcion", length = 250)
     private String description;
 
-    @Column(name = "categoria")
-    @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    @JoinColumn(name = "id")
+    @ManyToOne
+    @JsonIgnoreProperties("partyrooms")
     private Categoria category;
 
     @OneToMany(mappedBy = "partyroom", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
