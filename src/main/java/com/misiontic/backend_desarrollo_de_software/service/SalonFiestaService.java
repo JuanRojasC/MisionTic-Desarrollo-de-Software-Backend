@@ -10,7 +10,6 @@ package com.misiontic.backend_desarrollo_de_software.service;
  * @author Iván Dueñas
  */
 import com.misiontic.backend_desarrollo_de_software.model.SalonFiesta;
-import com.misiontic.backend_desarrollo_de_software.model.SalonFiesta;
 import com.misiontic.backend_desarrollo_de_software.repository.SalonFiestaRepository;
 import java.util.Collection;
 import java.util.Optional;
@@ -23,6 +22,7 @@ import org.springframework.stereotype.Service;
  *
  * @author Iván Dueñas
  */
+
 @Service
 @Log4j
 public class SalonFiestaService {
