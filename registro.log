@@ -215,3 +215,978 @@
 [2021-10-18 12:10:24] [INFO ] [ReservaService:24] Reserva con id: 1 ha sido guardada
 [2021-10-18 12:10:24] [INFO ] [ReservaService:34] Todas las reservas han sido buscadas
 [2021-10-18 12:10:35] [INFO ] [ReservaService:34] Todas las reservas han sido buscadas
+[2021-11-18 12:11:45] [INFO ] [CategoriaService:35] Categoria con id: 1 ha sido guardada
+[2021-11-18 12:11:45] [INFO ] [CategoriaService:55] Todas las categorias han sido buscadas
+[2021-11-18 12:11:46] [INFO ] [SalonFiestaService:50] Salon de Fiesta con id: 1 ha sido guardado
+[2021-11-18 12:11:46] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-11-18 12:11:46] [INFO ] [ClienteService:25] Cliente con id: 1 ha sido guardado
+[2021-11-18 12:11:46] [INFO ] [ClienteService:34] Todos lo clientes han sido buscados
+[2021-11-18 12:11:46] [INFO ] [MensajeService:23] Mensaje con id: 1 ha sido guardado
+[2021-11-18 12:11:46] [INFO ] [MensajeService:32] Todos los mensajes han sido buscados
+[2021-11-18 12:11:46] [INFO ] [ReservaService:24] Reserva con id: 1 ha sido guardada
+[2021-11-18 12:11:46] [INFO ] [ReservaService:34] Todas las reservas han sido buscadas
+[2021-37-22 08:37:07] [INFO ] [CategoriaService:35] Categoria con id: 1 ha sido guardada
+[2021-37-22 08:37:16] [INFO ] [CategoriaService:28] Categoria con id: 1 buscado
+[2021-37-22 08:37:19] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-37-22 08:37:25] [INFO ] [CategoriaService:47] Categorias con id: 1 actualizada
+[2021-37-22 08:37:34] [INFO ] [CategoriaService:56] Categoria con id: 1 eliminada
+[2021-38-22 08:38:10] [INFO ] [CategoriaService:35] Categoria con id: 2 ha sido guardada
+[2021-38-22 08:38:19] [INFO ] [CategoriaService:56] Categoria con id: 2 eliminada
+[2021-14-22 12:14:16] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-14-22 12:14:56] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-17-22 12:17:38] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-17-22 12:17:46] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-17-22 12:17:50] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-18-22 12:18:21] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-18-22 12:18:36] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-18-22 12:18:40] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-18-22 12:18:46] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-19-22 12:19:13] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-19-22 12:19:20] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-19-22 12:19:23] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-19-22 12:19:36] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-19-22 12:19:48] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-19-22 12:19:57] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-20-22 12:20:38] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-23-22 12:23:02] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-23-22 12:23:16] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-23-22 12:23:33] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-24-22 12:24:23] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-24-22 12:24:38] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-25-22 12:25:31] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-26-22 12:26:02] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-26-22 12:26:09] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-26-22 12:26:40] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-26-22 12:26:44] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-26-22 12:26:44] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-27-22 12:27:18] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-27-22 12:27:39] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-29-22 12:29:26] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-29-22 12:29:43] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-29-22 12:29:57] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-30-22 12:30:46] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-32-22 12:32:40] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-32-22 12:32:49] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-40-22 12:40:07] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-40-22 12:40:14] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-41-22 12:41:39] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-42-22 12:42:14] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-42-22 12:42:30] [INFO ] [ClienteService:35] Cliente con id: 1 ha sido guardado
+[2021-42-22 12:42:46] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-43-22 12:43:00] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-43-22 12:43:11] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-43-22 12:43:18] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-43-22 12:43:30] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-45-22 12:45:19] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-45-22 12:45:23] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-48-22 12:48:10] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-50-22 12:50:00] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-50-22 12:50:02] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-50-22 12:50:14] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-51-22 12:51:43] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-52-22 12:52:54] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-53-22 12:53:30] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-54-22 12:54:10] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-55-22 12:55:14] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-56-22 12:56:52] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-57-22 12:57:03] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-57-22 12:57:37] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-59-22 12:59:00] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-00-22 13:00:48] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-01-22 13:01:14] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-01-22 13:01:42] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-01-22 13:01:52] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-02-22 13:02:12] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-02-22 13:02:13] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-02-22 13:02:34] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-03-22 13:03:49] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-04-22 13:04:03] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-04-22 13:04:26] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-04-22 13:04:42] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-05-22 13:05:41] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-05-22 13:05:46] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-05-22 13:05:53] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-09-22 13:09:42] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-10-22 13:10:00] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-10-22 13:10:28] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-10-22 13:10:49] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-11-22 13:11:00] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-11-22 13:11:01] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-11-22 13:11:28] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-11-22 13:11:33] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-11-22 13:11:56] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-12-22 13:12:03] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-12-22 13:12:49] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-13-22 13:13:03] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-13-22 13:13:08] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-13-22 13:13:19] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-15-22 13:15:03] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-18-22 13:18:21] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-18-22 13:18:28] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-19-22 13:19:41] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-19-22 13:19:44] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-20-22 13:20:14] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-20-22 13:20:20] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-20-22 13:20:22] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-20-22 13:20:54] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-21-22 13:21:26] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-21-22 13:21:29] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-22-22 13:22:10] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-22-22 13:22:34] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-22-22 13:22:54] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-25-22 13:25:35] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-25-22 13:25:39] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-25-22 13:25:46] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-25-22 13:25:50] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-25-22 13:25:52] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-25-22 13:25:58] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-26-22 13:26:38] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-27-22 13:27:12] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-27-22 13:27:14] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-27-22 13:27:58] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-28-22 13:28:03] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-28-22 13:28:12] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-28-22 13:28:57] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-28-22 13:28:59] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-29-22 13:29:24] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-29-22 13:29:26] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-29-22 13:29:54] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-29-22 13:29:56] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-30-22 13:30:17] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-30-22 13:30:19] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-30-22 13:30:51] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-30-22 13:30:54] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-31-22 13:31:08] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-31-22 13:31:10] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-31-22 13:31:11] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-31-22 13:31:38] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-32-22 13:32:05] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-32-22 13:32:24] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-32-22 13:32:55] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-32-22 13:32:56] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-34-22 13:34:15] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-34-22 13:34:56] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-35-22 13:35:14] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-35-22 13:35:15] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-36-22 13:36:06] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-36-22 13:36:31] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-36-22 13:36:35] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-36-22 13:36:38] [INFO ] [ClienteService:35] Cliente con id: 2 ha sido guardado
+[2021-38-22 13:38:04] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-38-22 13:38:06] [INFO ] [ClienteService:28] Cliente con id: 2 buscada
+[2021-38-22 13:38:09] [INFO ] [ClienteService:35] Cliente con id: 3 ha sido guardado
+[2021-40-22 13:40:31] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-41-22 13:41:05] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-41-22 13:41:28] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-41-22 13:41:43] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-42-22 13:42:15] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-43-22 13:43:52] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-44-22 13:44:29] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-44-22 13:44:32] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-44-22 13:44:44] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-44-22 13:44:45] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-44-22 13:44:50] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-45-22 13:45:23] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-45-22 13:45:25] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-45-22 13:45:27] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-45-22 13:45:29] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-45-22 13:45:29] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-45-22 13:45:29] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-45-22 13:45:29] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-45-22 13:45:30] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-45-22 13:45:37] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-45-22 13:45:39] [INFO ] [ClienteService:28] Cliente con id: 2 buscada
+[2021-45-22 13:45:50] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-45-22 13:45:51] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-45-22 13:45:52] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-46-22 13:46:06] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-46-22 13:46:07] [INFO ] [ClienteService:28] Cliente con id: 2 buscada
+[2021-46-22 13:46:08] [INFO ] [ClienteService:28] Cliente con id: 2 buscada
+[2021-46-22 13:46:19] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-46-22 13:46:21] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-46-22 13:46:21] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-46-22 13:46:41] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-46-22 13:46:43] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-46-22 13:46:46] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-46-22 13:46:46] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-46-22 13:46:54] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-46-22 13:46:55] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-46-22 13:46:56] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-46-22 13:46:57] [INFO ] [ClienteService:28] Cliente con id: 2 buscada
+[2021-46-22 13:46:57] [INFO ] [ClienteService:28] Cliente con id: 2 buscada
+[2021-46-22 13:46:57] [INFO ] [ClienteService:28] Cliente con id: 2 buscada
+[2021-46-22 13:46:58] [INFO ] [ClienteService:28] Cliente con id: 2 buscada
+[2021-46-22 13:46:58] [INFO ] [ClienteService:28] Cliente con id: 2 buscada
+[2021-46-22 13:46:58] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-46-22 13:46:58] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-46-22 13:46:59] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-46-22 13:46:59] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-46-22 13:46:59] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-46-22 13:46:59] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-46-22 13:46:59] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-47-22 13:47:02] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-47-22 13:47:03] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-47-22 13:47:10] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-47-22 13:47:15] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-47-22 13:47:16] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-47-22 13:47:18] [INFO ] [ClienteService:28] Cliente con id: 2 buscada
+[2021-47-22 13:47:37] [INFO ] [ClienteService:35] Cliente con id: 4 ha sido guardado
+[2021-47-22 13:47:37] [INFO ] [ClienteService:35] Cliente con id: 5 ha sido guardado
+[2021-47-22 13:47:38] [INFO ] [ClienteService:35] Cliente con id: 7 ha sido guardado
+[2021-47-22 13:47:38] [INFO ] [ClienteService:35] Cliente con id: 6 ha sido guardado
+[2021-47-22 13:47:38] [INFO ] [ClienteService:35] Cliente con id: 8 ha sido guardado
+[2021-47-22 13:47:38] [INFO ] [ClienteService:35] Cliente con id: 9 ha sido guardado
+[2021-47-22 13:47:54] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-47-22 13:47:56] [INFO ] [ClienteService:28] Cliente con id: 2 buscada
+[2021-47-22 13:47:59] [INFO ] [ClienteService:28] Cliente con id: 4 buscada
+[2021-49-22 13:49:10] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-49-22 13:49:12] [INFO ] [ClienteService:28] Cliente con id: 3 buscada
+[2021-49-22 13:49:13] [INFO ] [ClienteService:28] Cliente con id: 5 buscada
+[2021-49-22 13:49:14] [INFO ] [ClienteService:28] Cliente con id: 7 buscada
+[2021-49-22 13:49:34] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-49-22 13:49:40] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-49-22 13:49:42] [INFO ] [ClienteService:28] Cliente con id: 4 buscada
+[2021-50-22 13:50:04] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-50-22 13:50:06] [INFO ] [ClienteService:28] Cliente con id: 3 buscada
+[2021-51-22 13:51:44] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-52-22 13:52:19] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-52-22 13:52:34] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-52-22 13:52:34] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-52-22 13:52:37] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-52-22 13:52:42] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-52-22 13:52:49] [INFO ] [ClienteService:28] Cliente con id: 2 buscada
+[2021-52-22 13:52:55] [INFO ] [ClienteService:35] Cliente con id: 10 ha sido guardado
+[2021-54-22 13:54:27] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-54-22 13:54:29] [INFO ] [ClienteService:28] Cliente con id: 10 buscada
+[2021-54-22 13:54:33] [INFO ] [ClienteService:35] Cliente con id: 11 ha sido guardado
+[2021-54-22 13:54:35] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-54-22 13:54:36] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-54-22 13:54:36] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-54-22 13:54:36] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-55-22 13:55:25] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-55-22 13:55:31] [INFO ] [ClienteService:28] Cliente con id: 6 buscada
+[2021-55-22 13:55:36] [INFO ] [ClienteService:35] Cliente con id: 12 ha sido guardado
+[2021-55-22 13:55:50] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-55-22 13:55:54] [INFO ] [ClienteService:28] Cliente con id: 3 buscada
+[2021-56-22 13:56:07] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-56-22 13:56:17] [INFO ] [ClienteService:28] Cliente con id: 3 buscada
+[2021-56-22 13:56:20] [INFO ] [ClienteService:35] Cliente con id: 13 ha sido guardado
+[2021-56-22 13:56:22] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-56-22 13:56:36] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-56-22 13:56:38] [INFO ] [ClienteService:28] Cliente con id: 13 buscada
+[2021-56-22 13:56:40] [INFO ] [ClienteService:35] Cliente con id: 14 ha sido guardado
+[2021-57-22 13:57:57] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-58-22 13:58:04] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-58-22 13:58:06] [INFO ] [ClienteService:28] Cliente con id: 14 buscada
+[2021-58-22 13:58:10] [INFO ] [ClienteService:35] Cliente con id: 15 ha sido guardado
+[2021-58-22 13:58:26] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-58-22 13:58:28] [INFO ] [ClienteService:28] Cliente con id: 15 buscada
+[2021-58-22 13:58:34] [INFO ] [ClienteService:35] Cliente con id: 16 ha sido guardado
+[2021-59-22 13:59:01] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-59-22 13:59:13] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-59-22 13:59:35] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-59-22 13:59:36] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-59-22 13:59:49] [INFO ] [ClienteService:35] Cliente con id: 1 ha sido guardado
+[2021-59-22 13:59:51] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-59-22 13:59:53] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-59-22 13:59:56] [INFO ] [ClienteService:35] Cliente con id: 2 ha sido guardado
+[2021-00-22 14:00:34] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-00-22 14:00:37] [INFO ] [ClienteService:28] Cliente con id: 2 buscada
+[2021-00-22 14:00:39] [INFO ] [ClienteService:35] Cliente con id: 3 ha sido guardado
+[2021-01-22 14:01:01] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-01-22 14:01:06] [INFO ] [ClienteService:28] Cliente con id: 3 buscada
+[2021-01-22 14:01:09] [INFO ] [ClienteService:35] Cliente con id: 4 ha sido guardado
+[2021-01-22 14:01:09] [INFO ] [ClienteService:47] Cliente con id: 3 actualizado
+[2021-01-22 14:01:23] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-01-22 14:01:25] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-01-22 14:01:26] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-01-22 14:01:28] [INFO ] [ClienteService:28] Cliente con id: 4 buscada
+[2021-01-22 14:01:31] [INFO ] [ClienteService:35] Cliente con id: 5 ha sido guardado
+[2021-01-22 14:01:31] [INFO ] [ClienteService:47] Cliente con id: 4 actualizado
+[2021-01-22 14:01:32] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-01-22 14:01:54] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-02-22 14:02:03] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-05-22 14:05:36] [INFO ] [ClienteService:28] Cliente con id: 2 buscada
+[2021-05-22 14:05:39] [INFO ] [ClienteService:35] Cliente con id: 6 ha sido guardado
+[2021-05-22 14:05:56] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-05-22 14:05:58] [INFO ] [ClienteService:28] Cliente con id: 4 buscada
+[2021-06-22 14:06:01] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-06-22 14:06:13] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-06-22 14:06:21] [INFO ] [ClienteService:35] Cliente con id: 7 ha sido guardado
+[2021-06-22 14:06:23] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-06-22 14:06:24] [INFO ] [ClienteService:28] Cliente con id: 4 buscada
+[2021-06-22 14:06:28] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-07-22 14:07:24] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-07-22 14:07:54] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-08-22 14:08:00] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-08-22 14:08:02] [INFO ] [ClienteService:28] Cliente con id: 6 buscada
+[2021-08-22 14:08:05] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-08-22 14:08:42] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-08-22 14:08:49] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-08-22 14:08:51] [INFO ] [ClienteService:28] Cliente con id: 6 buscada
+[2021-09-22 14:09:15] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-09-22 14:09:17] [INFO ] [ClienteService:28] Cliente con id: 6 buscada
+[2021-09-22 14:09:20] [INFO ] [ClienteService:47] Cliente con id: 6 actualizado
+[2021-09-22 14:09:22] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-10-22 14:10:30] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-10-22 14:10:33] [INFO ] [ClienteService:28] Cliente con id: 5 buscada
+[2021-10-22 14:10:37] [INFO ] [ClienteService:47] Cliente con id: 5 actualizado
+[2021-10-22 14:10:37] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-10-22 14:10:58] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-11-22 14:11:40] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-12-22 14:12:21] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-12-22 14:12:23] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-12-22 14:12:36] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-13-22 14:13:48] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-13-22 14:13:50] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-14-22 14:14:00] [INFO ] [ClienteService:28] Cliente con id: 6 buscada
+[2021-14-22 14:14:04] [INFO ] [ClienteService:47] Cliente con id: 6 actualizado
+[2021-14-22 14:14:04] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-14-22 14:14:18] [INFO ] [ClienteService:28] Cliente con id: 3 buscada
+[2021-14-22 14:14:25] [INFO ] [ClienteService:47] Cliente con id: 3 actualizado
+[2021-14-22 14:14:25] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-15-22 14:15:23] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-16-22 14:16:39] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-17-22 14:17:53] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-18-22 14:18:04] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-18-22 14:18:20] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-18-22 14:18:29] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-18-22 14:18:30] [INFO ] [ClienteService:56] Cliente con id: 3 eliminado
+[2021-18-22 14:18:35] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-18-22 14:18:41] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-18-22 14:18:44] [INFO ] [ClienteService:56] Cliente con id: 7 eliminado
+[2021-18-22 14:18:45] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-18-22 14:18:46] [INFO ] [ClienteService:56] Cliente con id: 5 eliminado
+[2021-18-22 14:18:47] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-18-22 14:18:48] [INFO ] [ClienteService:56] Cliente con id: 6 eliminado
+[2021-18-22 14:18:49] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-18-22 14:18:50] [INFO ] [ClienteService:56] Cliente con id: 4 eliminado
+[2021-18-22 14:18:51] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-18-22 14:18:52] [INFO ] [ClienteService:56] Cliente con id: 2 eliminado
+[2021-18-22 14:18:53] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-19-22 14:19:49] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-07-22 16:07:57] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-08-22 16:08:04] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-08-22 16:08:54] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-08-22 16:08:56] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-09-22 16:09:05] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-09-22 16:09:10] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-10-22 16:10:25] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-10-22 16:10:41] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-11-22 16:11:28] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-11-22 16:11:46] [INFO ] [ClienteService:35] Cliente con id: 1 ha sido guardado
+[2021-11-22 16:11:49] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-11-22 16:11:52] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-11-22 16:11:58] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-12-22 16:12:10] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-12-22 16:12:40] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-12-22 16:12:58] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-13-22 16:13:18] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-13-22 16:13:37] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-13-22 16:13:45] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-13-22 16:13:55] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-14-22 16:14:33] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-14-22 16:14:41] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-14-22 16:14:58] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-15-22 16:15:06] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-15-22 16:15:13] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-15-22 16:15:53] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-15-22 16:15:55] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-16-22 16:16:27] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-16-22 16:16:35] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-17-22 16:17:51] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-19-22 16:19:14] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-19-22 16:19:38] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-19-22 16:19:40] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-19-22 16:19:52] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-20-22 16:20:16] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-21-22 16:21:04] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-21-22 16:21:06] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-21-22 16:21:12] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-21-22 16:21:15] [INFO ] [ClienteService:47] Cliente con id: 1 actualizado
+[2021-21-22 16:21:15] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-21-22 16:21:59] [INFO ] [ClienteService:35] Cliente con id: 2 ha sido guardado
+[2021-21-22 16:21:59] [INFO ] [ClienteService:35] Cliente con id: 3 ha sido guardado
+[2021-22-22 16:22:00] [INFO ] [ClienteService:35] Cliente con id: 4 ha sido guardado
+[2021-22-22 16:22:01] [INFO ] [ClienteService:35] Cliente con id: 5 ha sido guardado
+[2021-22-22 16:22:01] [INFO ] [ClienteService:35] Cliente con id: 6 ha sido guardado
+[2021-22-22 16:22:02] [INFO ] [ClienteService:35] Cliente con id: 7 ha sido guardado
+[2021-22-22 16:22:02] [INFO ] [ClienteService:35] Cliente con id: 8 ha sido guardado
+[2021-22-22 16:22:02] [INFO ] [ClienteService:35] Cliente con id: 9 ha sido guardado
+[2021-22-22 16:22:03] [INFO ] [ClienteService:35] Cliente con id: 10 ha sido guardado
+[2021-22-22 16:22:03] [INFO ] [ClienteService:35] Cliente con id: 11 ha sido guardado
+[2021-22-22 16:22:03] [INFO ] [ClienteService:35] Cliente con id: 12 ha sido guardado
+[2021-22-22 16:22:03] [INFO ] [ClienteService:35] Cliente con id: 13 ha sido guardado
+[2021-22-22 16:22:04] [INFO ] [ClienteService:35] Cliente con id: 14 ha sido guardado
+[2021-22-22 16:22:05] [INFO ] [ClienteService:35] Cliente con id: 15 ha sido guardado
+[2021-22-22 16:22:07] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-25-22 16:25:36] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-25-22 16:25:36] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-25-22 16:25:37] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-25-22 16:25:37] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-25-22 16:25:37] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-25-22 16:25:38] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-25-22 16:25:38] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-25-22 16:25:43] [INFO ] [ClienteService:35] Cliente con id: 16 ha sido guardado
+[2021-25-22 16:25:44] [INFO ] [ClienteService:35] Cliente con id: 17 ha sido guardado
+[2021-25-22 16:25:44] [INFO ] [ClienteService:35] Cliente con id: 18 ha sido guardado
+[2021-25-22 16:25:45] [INFO ] [ClienteService:35] Cliente con id: 19 ha sido guardado
+[2021-25-22 16:25:47] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-28-22 16:28:18] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-28-22 16:28:21] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-28-22 16:28:30] [INFO ] [ClienteService:56] Cliente con id: 11 eliminado
+[2021-28-22 16:28:31] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-28-22 16:28:32] [INFO ] [ClienteService:56] Cliente con id: 12 eliminado
+[2021-28-22 16:28:33] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-28-22 16:28:34] [INFO ] [ClienteService:56] Cliente con id: 16 eliminado
+[2021-28-22 16:28:35] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-28-22 16:28:36] [INFO ] [ClienteService:56] Cliente con id: 15 eliminado
+[2021-28-22 16:28:37] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-28-22 16:28:38] [INFO ] [ClienteService:56] Cliente con id: 10 eliminado
+[2021-28-22 16:28:40] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-31-22 16:31:39] [INFO ] [ClienteService:35] Cliente con id: 20 ha sido guardado
+[2021-31-22 16:31:40] [INFO ] [ClienteService:35] Cliente con id: 21 ha sido guardado
+[2021-31-22 16:31:40] [INFO ] [ClienteService:35] Cliente con id: 22 ha sido guardado
+[2021-31-22 16:31:41] [INFO ] [ClienteService:35] Cliente con id: 23 ha sido guardado
+[2021-31-22 16:31:41] [INFO ] [ClienteService:35] Cliente con id: 24 ha sido guardado
+[2021-31-22 16:31:42] [INFO ] [ClienteService:35] Cliente con id: 25 ha sido guardado
+[2021-31-22 16:31:42] [INFO ] [ClienteService:35] Cliente con id: 26 ha sido guardado
+[2021-31-22 16:31:42] [INFO ] [ClienteService:35] Cliente con id: 27 ha sido guardado
+[2021-31-22 16:31:43] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-32-22 16:32:32] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-32-22 16:32:48] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-33-22 16:33:58] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-34-22 16:34:34] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-34-22 16:34:40] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-34-22 16:34:56] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-34-22 16:34:59] [INFO ] [ClienteService:56] Cliente con id: 9 eliminado
+[2021-35-22 16:35:00] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-38-22 16:38:09] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-40-22 16:40:56] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-55-22 16:55:56] [INFO ] [ClienteService:35] Cliente con id: 1 ha sido guardado
+[2021-56-22 16:56:16] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-56-22 16:56:21] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-56-22 16:56:22] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-56-22 16:56:23] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-56-22 16:56:26] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-56-22 16:56:27] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-56-22 16:56:27] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-56-22 16:56:27] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-56-22 16:56:28] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-56-22 16:56:29] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-56-22 16:56:41] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-56-22 16:56:44] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-56-22 16:56:46] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-56-22 16:56:50] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-56-22 16:56:56] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-57-22 16:57:05] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-57-22 16:57:09] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-57-22 16:57:20] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-57-22 16:57:21] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-57-22 16:57:21] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-57-22 16:57:40] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-57-22 16:57:43] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-57-22 16:57:43] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-57-22 16:57:44] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-57-22 16:57:44] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-57-22 16:57:44] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-57-22 16:57:45] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-57-22 16:57:51] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-58-22 16:58:16] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-58-22 16:58:21] [INFO ] [ClienteService:35] Cliente con id: 2 ha sido guardado
+[2021-58-22 16:58:22] [INFO ] [ClienteService:35] Cliente con id: 3 ha sido guardado
+[2021-58-22 16:58:22] [INFO ] [ClienteService:35] Cliente con id: 4 ha sido guardado
+[2021-58-22 16:58:22] [INFO ] [ClienteService:35] Cliente con id: 5 ha sido guardado
+[2021-58-22 16:58:23] [INFO ] [ClienteService:35] Cliente con id: 6 ha sido guardado
+[2021-58-22 16:58:23] [INFO ] [ClienteService:35] Cliente con id: 7 ha sido guardado
+[2021-58-22 16:58:25] [INFO ] [ClienteService:35] Cliente con id: 8 ha sido guardado
+[2021-58-22 16:58:27] [INFO ] [ClienteService:35] Cliente con id: 9 ha sido guardado
+[2021-58-22 16:58:27] [INFO ] [ClienteService:35] Cliente con id: 10 ha sido guardado
+[2021-58-22 16:58:28] [INFO ] [ClienteService:35] Cliente con id: 11 ha sido guardado
+[2021-58-22 16:58:28] [INFO ] [ClienteService:35] Cliente con id: 12 ha sido guardado
+[2021-58-22 16:58:29] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-58-22 16:58:31] [INFO ] [ClienteService:35] Cliente con id: 13 ha sido guardado
+[2021-58-22 16:58:31] [INFO ] [ClienteService:35] Cliente con id: 14 ha sido guardado
+[2021-58-22 16:58:32] [INFO ] [ClienteService:35] Cliente con id: 15 ha sido guardado
+[2021-58-22 16:58:33] [INFO ] [ClienteService:35] Cliente con id: 16 ha sido guardado
+[2021-58-22 16:58:34] [INFO ] [ClienteService:35] Cliente con id: 17 ha sido guardado
+[2021-58-22 16:58:35] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-59-22 16:59:26] [INFO ] [ClienteService:28] Cliente con id: 3 buscada
+[2021-59-22 16:59:35] [INFO ] [ClienteService:28] Cliente con id: 9 buscada
+[2021-59-22 16:59:39] [INFO ] [ClienteService:47] Cliente con id: 9 actualizado
+[2021-59-22 16:59:39] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-59-22 16:59:42] [INFO ] [ClienteService:28] Cliente con id: 9 buscada
+[2021-59-22 16:59:43] [INFO ] [ClienteService:28] Cliente con id: 5 buscada
+[2021-59-22 16:59:50] [INFO ] [ClienteService:47] Cliente con id: 9 actualizado
+[2021-59-22 16:59:50] [INFO ] [ClienteService:47] Cliente con id: 5 actualizado
+[2021-59-22 16:59:50] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-00-22 17:00:16] [INFO ] [ClienteService:28] Cliente con id: 8 buscada
+[2021-00-22 17:00:23] [INFO ] [ClienteService:28] Cliente con id: 5 buscada
+[2021-00-22 17:00:27] [INFO ] [ClienteService:47] Cliente con id: 5 actualizado
+[2021-00-22 17:00:27] [INFO ] [ClienteService:47] Cliente con id: 8 actualizado
+[2021-00-22 17:00:27] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-00-22 17:00:27] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-01-22 17:01:23] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-07-22 17:07:00] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-08-22 17:08:07] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-08-22 17:08:15] [INFO ] [ClienteService:28] Cliente con id: 6 buscada
+[2021-08-22 17:08:22] [INFO ] [ClienteService:28] Cliente con id: 3 buscada
+[2021-08-22 17:08:25] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-08-22 17:08:47] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-08-22 17:08:58] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-09-22 17:09:06] [INFO ] [ClienteService:28] Cliente con id: 4 buscada
+[2021-09-22 17:09:09] [INFO ] [ClienteService:47] Cliente con id: 4 actualizado
+[2021-09-22 17:09:09] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-09-22 17:09:19] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-10-22 17:10:37] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-11-22 17:11:55] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-12-22 17:12:28] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-13-22 17:13:06] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-13-22 17:13:08] [INFO ] [ClienteService:28] Cliente con id: 7 buscada
+[2021-13-22 17:13:13] [INFO ] [ClienteService:47] Cliente con id: 7 actualizado
+[2021-13-22 17:13:14] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-13-22 17:13:39] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-13-22 17:13:42] [INFO ] [ClienteService:28] Cliente con id: 7 buscada
+[2021-13-22 17:13:53] [INFO ] [ClienteService:47] Cliente con id: 7 actualizado
+[2021-13-22 17:13:53] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-14-22 17:14:04] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-15-22 17:15:14] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-15-22 17:15:54] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-16-22 17:16:08] [INFO ] [ClienteService:56] Cliente con id: 7 eliminado
+[2021-16-22 17:16:08] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-16-22 17:16:12] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-17-22 17:17:55] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-18-22 17:18:09] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-18-22 17:18:10] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-19-22 17:19:34] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-19-22 17:19:50] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-20-22 17:20:14] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-20-22 17:20:28] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-21-22 17:21:35] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-22-22 17:22:03] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-22-22 17:22:33] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-22-22 17:22:42] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-22-22 17:22:46] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-23-22 17:23:27] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-24-22 17:24:17] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-25-22 17:25:01] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-25-22 17:25:12] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-27-22 17:27:14] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-27-22 17:27:52] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-29-22 17:29:39] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-33-22 17:33:41] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-33-22 17:33:44] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-35-22 17:35:07] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-37-22 17:37:11] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-37-22 17:37:36] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-40-22 17:40:14] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-41-22 17:41:02] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-42-22 17:42:25] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-42-22 17:42:42] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-43-22 17:43:17] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-43-22 17:43:31] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-43-22 17:43:40] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-44-22 17:44:01] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-44-22 17:44:25] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-44-22 17:44:36] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-45-22 17:45:28] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-45-22 17:45:55] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-46-22 17:46:01] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-46-22 17:46:21] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-46-22 17:46:26] [INFO ] [ClienteService:28] Cliente con id: 6 buscada
+[2021-46-22 17:46:38] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-46-22 17:46:40] [INFO ] [ClienteService:28] Cliente con id: 6 buscada
+[2021-46-22 17:46:55] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-46-22 17:46:57] [INFO ] [ClienteService:28] Cliente con id: 5 buscada
+[2021-47-22 17:47:11] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-47-22 17:47:17] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-47-22 17:47:18] [INFO ] [ClienteService:28] Cliente con id: 6 buscada
+[2021-47-22 17:47:33] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-47-22 17:47:36] [INFO ] [ClienteService:28] Cliente con id: 5 buscada
+[2021-48-22 17:48:13] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-48-22 17:48:51] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-48-22 17:48:53] [INFO ] [ClienteService:28] Cliente con id: 6 buscada
+[2021-49-22 17:49:23] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-49-22 17:49:27] [INFO ] [ClienteService:28] Cliente con id: 5 buscada
+[2021-50-22 17:50:27] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-51-22 17:51:35] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-51-22 17:51:37] [INFO ] [ClienteService:28] Cliente con id: 8 buscada
+[2021-51-22 17:51:50] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-51-22 17:51:52] [INFO ] [ClienteService:28] Cliente con id: 5 buscada
+[2021-52-22 17:52:12] [INFO ] [ClienteService:28] Cliente con id: 11 buscada
+[2021-52-22 17:52:14] [INFO ] [ClienteService:28] Cliente con id: 10 buscada
+[2021-52-22 17:52:16] [INFO ] [ClienteService:28] Cliente con id: 13 buscada
+[2021-52-22 17:52:19] [INFO ] [ClienteService:28] Cliente con id: 3 buscada
+[2021-53-22 17:53:04] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-53-22 17:53:17] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-54-22 17:54:11] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-54-22 17:54:14] [INFO ] [ClienteService:28] Cliente con id: 8 buscada
+[2021-55-22 17:55:23] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-55-22 17:55:28] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-55-22 17:55:56] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-58-22 17:58:11] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-58-22 17:58:24] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-58-22 17:58:42] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-59-22 17:59:17] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-59-22 17:59:29] [INFO ] [ClienteService:28] Cliente con id: 5 buscada
+[2021-59-22 17:59:30] [INFO ] [ClienteService:35] Cliente con id: 18 ha sido guardado
+[2021-00-22 18:00:39] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-01-22 18:01:29] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-02-22 18:02:01] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-02-22 18:02:02] [INFO ] [ClienteService:28] Cliente con id: 6 buscada
+[2021-02-22 18:02:07] [INFO ] [ClienteService:28] Cliente con id: 6 buscada
+[2021-02-22 18:02:13] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-03-22 18:03:14] [INFO ] [ClienteService:28] Cliente con id: 4 buscada
+[2021-03-22 18:03:19] [INFO ] [ClienteService:28] Cliente con id: 6 buscada
+[2021-03-22 18:03:23] [INFO ] [ClienteService:47] Cliente con id: 6 actualizado
+[2021-03-22 18:03:23] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-03-22 18:03:28] [INFO ] [ClienteService:56] Cliente con id: 6 eliminado
+[2021-03-22 18:03:28] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-03-22 18:03:30] [INFO ] [ClienteService:56] Cliente con id: 11 eliminado
+[2021-03-22 18:03:30] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-03-22 18:03:32] [INFO ] [ClienteService:56] Cliente con id: 12 eliminado
+[2021-03-22 18:03:32] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-03-22 18:03:35] [INFO ] [ClienteService:56] Cliente con id: 14 eliminado
+[2021-03-22 18:03:35] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-03-22 18:03:37] [INFO ] [ClienteService:56] Cliente con id: 13 eliminado
+[2021-03-22 18:03:37] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-03-22 18:03:39] [INFO ] [ClienteService:56] Cliente con id: 10 eliminado
+[2021-03-22 18:03:39] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-03-22 18:03:41] [INFO ] [ClienteService:56] Cliente con id: 9 eliminado
+[2021-03-22 18:03:41] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-03-22 18:03:43] [INFO ] [ClienteService:56] Cliente con id: 4 eliminado
+[2021-03-22 18:03:43] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-03-22 18:03:45] [INFO ] [ClienteService:56] Cliente con id: 15 eliminado
+[2021-03-22 18:03:45] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-03-22 18:03:48] [INFO ] [ClienteService:56] Cliente con id: 16 eliminado
+[2021-03-22 18:03:48] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-03-22 18:03:50] [INFO ] [ClienteService:56] Cliente con id: 8 eliminado
+[2021-03-22 18:03:50] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-03-22 18:03:52] [INFO ] [ClienteService:56] Cliente con id: 17 eliminado
+[2021-03-22 18:03:52] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-03-22 18:03:54] [INFO ] [ClienteService:56] Cliente con id: 3 eliminado
+[2021-03-22 18:03:54] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-03-22 18:03:56] [INFO ] [ClienteService:56] Cliente con id: 5 eliminado
+[2021-03-22 18:03:56] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-03-22 18:03:58] [INFO ] [ClienteService:56] Cliente con id: 2 eliminado
+[2021-03-22 18:03:58] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-04-22 18:04:01] [INFO ] [ClienteService:56] Cliente con id: 1 eliminado
+[2021-04-22 18:04:01] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-04-22 18:04:03] [INFO ] [ClienteService:56] Cliente con id: 18 eliminado
+[2021-04-22 18:04:03] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-04-22 18:04:06] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-04-22 18:04:07] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-04-22 18:04:07] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-06-22 18:06:11] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-07-22 18:07:12] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-07-22 18:07:23] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-15-22 18:15:49] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-16-22 18:16:09] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-17-22 18:17:25] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-17-22 18:17:43] [INFO ] [ClienteService:35] Cliente con id: 19 ha sido guardado
+[2021-17-22 18:17:46] [INFO ] [ClienteService:28] Cliente con id: 19 buscada
+[2021-17-22 18:17:52] [INFO ] [ClienteService:28] Cliente con id: 19 buscada
+[2021-20-22 18:20:25] [INFO ] [MensajeService:42] Todos los mensajes han sido buscados
+[2021-20-22 18:20:32] [INFO ] [MensajeService:42] Todos los mensajes han sido buscados
+[2021-20-22 18:20:44] [INFO ] [MensajeService:42] Todos los mensajes han sido buscados
+[2021-20-22 18:20:47] [INFO ] [MensajeService:42] Todos los mensajes han sido buscados
+[2021-21-22 18:21:35] [INFO ] [MensajeService:42] Todos los mensajes han sido buscados
+[2021-21-22 18:21:52] [INFO ] [MensajeService:42] Todos los mensajes han sido buscados
+[2021-22-22 18:22:36] [INFO ] [MensajeService:42] Todos los mensajes han sido buscados
+[2021-22-22 18:22:56] [INFO ] [MensajeService:42] Todos los mensajes han sido buscados
+[2021-23-22 18:23:47] [INFO ] [MensajeService:42] Todos los mensajes han sido buscados
+[2021-24-22 18:24:04] [INFO ] [MensajeService:42] Todos los mensajes han sido buscados
+[2021-24-22 18:24:58] [INFO ] [MensajeService:42] Todos los mensajes han sido buscados
+[2021-25-22 18:25:21] [INFO ] [MensajeService:42] Todos los mensajes han sido buscados
+[2021-25-22 18:25:27] [INFO ] [MensajeService:42] Todos los mensajes han sido buscados
+[2021-25-22 18:25:28] [INFO ] [MensajeService:42] Todos los mensajes han sido buscados
+[2021-25-22 18:25:42] [INFO ] [MensajeService:42] Todos los mensajes han sido buscados
+[2021-26-22 18:26:31] [INFO ] [MensajeService:42] Todos los mensajes han sido buscados
+[2021-26-22 18:26:59] [INFO ] [MensajeService:42] Todos los mensajes han sido buscados
+[2021-29-22 18:29:30] [INFO ] [MensajeService:42] Todos los mensajes han sido buscados
+[2021-30-22 18:30:06] [INFO ] [MensajeService:42] Todos los mensajes han sido buscados
+[2021-30-22 18:30:16] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-31-22 18:31:39] [INFO ] [CategoriaService:35] Categoria con id: 1 ha sido guardada
+[2021-31-22 18:31:48] [INFO ] [CategoriaService:28] Categoria con id: 1 buscado
+[2021-31-22 18:31:56] [INFO ] [CategoriaService:47] Categorias con id: 1 actualizada
+[2021-31-22 18:31:56] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-31-22 18:31:58] [INFO ] [CategoriaService:28] Categoria con id: 1 buscado
+[2021-36-22 18:36:32] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-36-22 18:36:49] [INFO ] [CategoriaService:28] Categoria con id: 1 buscado
+[2021-37-22 18:37:25] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-37-22 18:37:52] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-37-22 18:37:56] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-38-22 18:38:04] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-38-22 18:38:26] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-38-22 18:38:47] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-39-22 18:39:25] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-39-22 18:39:40] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-41-22 18:41:34] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-42-22 18:42:48] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-42-22 18:42:52] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-43-22 18:43:46] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-45-22 18:45:56] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-46-22 18:46:08] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-46-22 18:46:22] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-46-22 18:46:52] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-46-22 18:46:55] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-47-22 18:47:02] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-47-22 18:47:05] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-47-22 18:47:08] [INFO ] [CategoriaService:28] Categoria con id: 1 buscado
+[2021-47-22 18:47:34] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-47-22 18:47:36] [INFO ] [CategoriaService:28] Categoria con id: 1 buscado
+[2021-47-22 18:47:48] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-47-22 18:47:50] [INFO ] [CategoriaService:28] Categoria con id: 1 buscado
+[2021-47-22 18:47:56] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-47-22 18:47:58] [INFO ] [CategoriaService:28] Categoria con id: 1 buscado
+[2021-48-22 18:48:43] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-49-22 18:49:20] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-49-22 18:49:21] [INFO ] [CategoriaService:28] Categoria con id: 1 buscado
+[2021-49-22 18:49:38] [INFO ] [CategoriaService:56] Categoria con id: 1 eliminada
+[2021-49-22 18:49:38] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-49-22 18:49:43] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-49-22 18:49:51] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-49-22 18:49:56] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-50-22 18:50:02] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-50-22 18:50:21] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-50-22 18:50:24] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-51-22 18:51:07] [INFO ] [CategoriaService:35] Categoria con id: 2 ha sido guardada
+[2021-51-22 18:51:10] [INFO ] [CategoriaService:28] Categoria con id: 2 buscado
+[2021-51-22 18:51:16] [INFO ] [CategoriaService:28] Categoria con id: 2 buscado
+[2021-51-22 18:51:36] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-52-22 18:52:17] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-52-22 18:52:20] [INFO ] [CategoriaService:28] Categoria con id: 2 buscado
+[2021-52-22 18:52:24] [INFO ] [CategoriaService:47] Categorias con id: 2 actualizada
+[2021-52-22 18:52:24] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-52-22 18:52:27] [INFO ] [CategoriaService:56] Categoria con id: 2 eliminada
+[2021-52-22 18:52:27] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-52-22 18:52:32] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-52-22 18:52:53] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-53-22 18:53:07] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-53-22 18:53:08] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-53-22 18:53:12] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-53-22 18:53:17] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-53-22 18:53:21] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-53-22 18:53:22] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-53-22 18:53:26] [INFO ] [CategoriaService:35] Categoria con id: 3 ha sido guardada
+[2021-53-22 18:53:29] [INFO ] [CategoriaService:56] Categoria con id: 3 eliminada
+[2021-53-22 18:53:29] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-53-22 18:53:37] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-53-22 18:53:45] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-53-22 18:53:48] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-53-22 18:53:52] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-53-22 18:53:56] [INFO ] [CategoriaService:35] Categoria con id: 4 ha sido guardada
+[2021-53-22 18:53:59] [INFO ] [CategoriaService:56] Categoria con id: 4 eliminada
+[2021-53-22 18:53:59] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-54-22 18:54:06] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-54-22 18:54:09] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-54-22 18:54:51] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-54-22 18:54:55] [INFO ] [CategoriaService:35] Categoria con id: 5 ha sido guardada
+[2021-54-22 18:54:57] [INFO ] [CategoriaService:56] Categoria con id: 5 eliminada
+[2021-54-22 18:54:57] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-55-22 18:55:08] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-55-22 18:55:27] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-55-22 18:55:36] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-56-22 18:56:01] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-56-22 18:56:04] [INFO ] [CategoriaService:35] Categoria con id: 6 ha sido guardada
+[2021-56-22 18:56:06] [INFO ] [CategoriaService:56] Categoria con id: 6 eliminada
+[2021-56-22 18:56:06] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-56-22 18:56:25] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-57-22 18:57:05] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-57-22 18:57:29] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-57-22 18:57:33] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-02-22 19:02:39] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-02-22 19:02:56] [INFO ] [ClienteService:35] Cliente con id: 1 ha sido guardado
+[2021-03-22 19:03:20] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-03-22 19:03:30] [INFO ] [ClienteService:47] Cliente con id: 1 actualizado
+[2021-03-22 19:03:30] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-04-22 19:04:02] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-04-22 19:04:04] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-06-22 19:06:27] [INFO ] [ClienteService:56] Cliente con id: 1 eliminado
+[2021-06-22 19:06:27] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-06-22 19:06:33] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-06-22 19:06:37] [INFO ] [CategoriaService:35] Categoria con id: 7 ha sido guardada
+[2021-06-22 19:06:38] [INFO ] [CategoriaService:28] Categoria con id: 7 buscado
+[2021-06-22 19:06:41] [INFO ] [CategoriaService:47] Categorias con id: 7 actualizada
+[2021-06-22 19:06:41] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-06-22 19:06:43] [INFO ] [CategoriaService:28] Categoria con id: 7 buscado
+[2021-08-22 19:08:26] [INFO ] [CategoriaService:56] Categoria con id: 7 eliminada
+[2021-08-22 19:08:26] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-09-22 19:09:26] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-09-22 19:09:41] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-13-22 19:13:33] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-13-22 19:13:48] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-14-22 19:14:00] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-14-22 19:14:43] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-14-22 19:14:51] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-15-22 19:15:01] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-15-22 19:15:53] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-16-22 19:16:12] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-16-22 19:16:27] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-16-22 19:16:31] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-17-22 19:17:08] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-18-22 19:18:41] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-21-22 19:21:44] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-21-22 19:21:45] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-22-22 19:22:44] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-23-22 19:23:15] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-23-22 19:23:44] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-23-22 19:23:44] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-23-22 19:23:51] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-24-22 19:24:07] [INFO ] [CategoriaService:35] Categoria con id: 8 ha sido guardada
+[2021-24-22 19:24:25] [INFO ] [CategoriaService:35] Categoria con id: 9 ha sido guardada
+[2021-24-22 19:24:56] [INFO ] [CategoriaService:35] Categoria con id: 10 ha sido guardada
+[2021-24-22 19:24:59] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-25-22 19:25:02] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-25-22 19:25:02] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-25-22 19:25:54] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-26-22 19:26:10] [INFO ] [CategoriaService:35] Categoria con id: 1 ha sido guardada
+[2021-26-22 19:26:23] [INFO ] [CategoriaService:35] Categoria con id: 2 ha sido guardada
+[2021-26-22 19:26:40] [INFO ] [CategoriaService:35] Categoria con id: 3 ha sido guardada
+[2021-26-22 19:26:42] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-26-22 19:26:46] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-26-22 19:26:46] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-27-22 19:27:13] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-27-22 19:27:13] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-27-22 19:27:15] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-27-22 19:27:15] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-27-22 19:27:22] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-27-22 19:27:22] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-31-22 19:31:28] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-31-22 19:31:28] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-32-22 19:32:00] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-32-22 19:32:00] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-32-22 19:32:16] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-32-22 19:32:16] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-32-22 19:32:35] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-32-22 19:32:35] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-33-22 19:33:36] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-33-22 19:33:36] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-33-22 19:33:48] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-33-22 19:33:48] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-33-22 19:33:54] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-33-22 19:33:54] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-34-22 19:34:18] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-34-22 19:34:18] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-37-22 19:37:09] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-37-22 19:37:09] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-37-22 19:37:23] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-37-22 19:37:23] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-37-22 19:37:40] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-37-22 19:37:40] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-37-22 19:37:43] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-37-22 19:37:43] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-38-22 19:38:29] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-38-22 19:38:31] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-38-22 19:38:46] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-38-22 19:38:46] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-39-22 19:39:11] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-39-22 19:39:11] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-39-22 19:39:28] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-39-22 19:39:28] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-41-22 19:41:43] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-41-22 19:41:43] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-42-22 19:42:37] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-42-22 19:42:37] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-48-22 19:48:43] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-48-22 19:48:44] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-49-22 19:49:22] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-49-22 19:49:22] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-50-22 19:50:16] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-50-22 19:50:16] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-50-22 19:50:31] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-50-22 19:50:31] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-51-22 19:51:10] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-51-22 19:51:10] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-51-22 19:51:18] [INFO ] [SalonFiestaService:41] Salon de Fiesta con id: 1 ha sido guardado
+[2021-51-22 19:51:25] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-51-22 19:51:25] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-51-22 19:51:49] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-51-22 19:51:49] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-51-22 19:51:57] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-51-22 19:51:57] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-52-22 19:52:00] [INFO ] [SalonFiestaService:69] Salon de fiesta con id: 1 ha sido eliminado
+[2021-52-22 19:52:00] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-52-22 19:52:00] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-52-22 19:52:01] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-52-22 19:52:01] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-52-22 19:52:10] [INFO ] [SalonFiestaService:41] Salon de Fiesta con id: 2 ha sido guardado
+[2021-52-22 19:52:16] [INFO ] [SalonFiestaService:34] Salon de fiesta con id: 2 ha sido encontrado
+[2021-52-22 19:52:48] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-52-22 19:52:48] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-52-22 19:52:56] [INFO ] [SalonFiestaService:41] Salon de Fiesta con id: 3 ha sido guardado
+[2021-53-22 19:53:12] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-53-22 19:53:12] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-53-22 19:53:21] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-53-22 19:53:21] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-54-22 19:54:21] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-54-22 19:54:21] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-54-22 19:54:36] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-54-22 19:54:36] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-56-22 19:56:55] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-56-22 19:56:55] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-58-22 19:58:21] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-58-22 19:58:21] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-58-22 19:58:24] [INFO ] [SalonFiestaService:34] Salon de fiesta con id: 2 ha sido encontrado
+[2021-58-22 19:58:33] [INFO ] [SalonFiestaService:34] Salon de fiesta con id: 3 ha sido encontrado
+[2021-58-22 19:58:53] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-58-22 19:58:53] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-59-22 19:59:32] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-59-22 19:59:32] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-59-22 19:59:37] [INFO ] [SalonFiestaService:34] Salon de fiesta con id: 3 ha sido encontrado
+[2021-59-22 19:59:48] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-59-22 19:59:48] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-00-22 20:00:09] [INFO ] [SalonFiestaService:34] Salon de fiesta con id: 3 ha sido encontrado
+[2021-00-22 20:00:16] [INFO ] [SalonFiestaService:57] Salon de fiesta con id: 3 ha sido actualizado
+[2021-00-22 20:00:16] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-00-22 20:00:16] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-00-22 20:00:36] [INFO ] [SalonFiestaService:34] Salon de fiesta con id: 3 ha sido encontrado
+[2021-01-22 20:01:07] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-01-22 20:01:07] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-01-22 20:01:16] [INFO ] [SalonFiestaService:34] Salon de fiesta con id: 3 ha sido encontrado
+[2021-01-22 20:01:21] [INFO ] [SalonFiestaService:34] Salon de fiesta con id: 3 ha sido encontrado
+[2021-03-22 20:03:14] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-03-22 20:03:14] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-03-22 20:03:16] [INFO ] [SalonFiestaService:34] Salon de fiesta con id: 3 ha sido encontrado
+[2021-03-22 20:03:27] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-03-22 20:03:27] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-03-22 20:03:29] [INFO ] [SalonFiestaService:34] Salon de fiesta con id: 3 ha sido encontrado
+[2021-04-22 20:04:15] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-04-22 20:04:15] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-04-22 20:04:26] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-04-22 20:04:26] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-04-22 20:04:27] [INFO ] [SalonFiestaService:34] Salon de fiesta con id: 2 ha sido encontrado
+[2021-04-22 20:04:28] [INFO ] [SalonFiestaService:41] Salon de Fiesta con id: 4 ha sido guardado
+[2021-04-22 20:04:52] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-04-22 20:04:52] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-05-22 20:05:06] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-05-22 20:05:06] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-05-22 20:05:07] [INFO ] [SalonFiestaService:34] Salon de fiesta con id: 2 ha sido encontrado
+[2021-05-22 20:05:09] [INFO ] [SalonFiestaService:41] Salon de Fiesta con id: 5 ha sido guardado
+[2021-05-22 20:05:53] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-05-22 20:05:53] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-05-22 20:05:55] [INFO ] [SalonFiestaService:34] Salon de fiesta con id: 2 ha sido encontrado
+[2021-05-22 20:05:57] [INFO ] [SalonFiestaService:41] Salon de Fiesta con id: 6 ha sido guardado
+[2021-06-22 20:06:07] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-06-22 20:06:07] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-06-22 20:06:20] [INFO ] [SalonFiestaService:34] Salon de fiesta con id: 4 ha sido encontrado
+[2021-06-22 20:06:48] [INFO ] [SalonFiestaService:69] Salon de fiesta con id: 5 ha sido eliminado
+[2021-06-22 20:06:48] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-06-22 20:06:48] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-06-22 20:06:50] [INFO ] [SalonFiestaService:69] Salon de fiesta con id: 6 ha sido eliminado
+[2021-06-22 20:06:50] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-06-22 20:06:50] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-06-22 20:06:53] [INFO ] [SalonFiestaService:69] Salon de fiesta con id: 3 ha sido eliminado
+[2021-06-22 20:06:53] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-06-22 20:06:53] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-06-22 20:06:55] [INFO ] [SalonFiestaService:69] Salon de fiesta con id: 4 ha sido eliminado
+[2021-06-22 20:06:55] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-06-22 20:06:55] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-07-22 20:07:00] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-07-22 20:07:00] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-07-22 20:07:00] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-07-22 20:07:00] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-07-22 20:07:02] [INFO ] [SalonFiestaService:34] Salon de fiesta con id: 2 ha sido encontrado
+[2021-07-22 20:07:22] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-10-22 20:10:11] [INFO ] [SalonFiestaService:77] Todos los salones de fiesta han sido buscados
+[2021-10-22 20:10:11] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas

@@ -3,15 +3,14 @@ package com.misiontic.backend_desarrollo_de_software.controller;
 import com.misiontic.backend_desarrollo_de_software.model.Reserva;
 import com.misiontic.backend_desarrollo_de_software.service.ReservaService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.Collection;
 
 @RestController
 @RequestMapping("/api/Reservation")
+@CrossOrigin
 public class ReservaController {
     
     private ReservaService reservaService;
@@ -20,14 +19,35 @@ public class ReservaController {
     public ReservaController(ReservaService reservaService) {
         this.reservaService = reservaService;
     }
-    
+
     @GetMapping("/all")
-    public ResponseEntity<?> buscarTodasLasReservas(){
-        return ResponseEntity.ok(reservaService.buscarTodasLasReservas());
+    @ResponseStatus(HttpStatus.ACCEPTED)
+    public Collection<Reserva> buscarTodasLasReservas(){
+        return reservaService.buscarTodasLasReservas();
     }
-    
+
+    @GetMapping("/{id}")
+    @ResponseStatus(HttpStatus.ACCEPTED)
+    public Reserva buscarReservaPorId(@PathVariable Long id){
+        return reservaService.buscarPorId(id);
+    }
+
     @PostMapping("/save")
-    public ResponseEntity<?> guardarReserva(@RequestBody Reserva r){
-        return ResponseEntity.ok(reservaService.guardarReserva(r));
+    @ResponseStatus(HttpStatus.CREATED)
+    public Reserva guardarReserva(@RequestBody Reserva c){
+        return reservaService.guardarReserva(c);
     }
+
+    @PutMapping("/update")
+    @ResponseStatus(HttpStatus.ACCEPTED)
+    public Reserva actualizarReserva(@RequestBody Reserva c){
+        return reservaService.actualizarReserva(c);
+    }
+
+    @DeleteMapping("/{id}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    public Boolean eliminarReserva(@PathVariable Long id){
+        return reservaService.eliminarReservaPorId(id);
+    }
+
 }

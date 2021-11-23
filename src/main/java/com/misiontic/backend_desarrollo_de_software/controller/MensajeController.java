@@ -3,15 +3,14 @@ package com.misiontic.backend_desarrollo_de_software.controller;
 import com.misiontic.backend_desarrollo_de_software.model.Mensaje;
 import com.misiontic.backend_desarrollo_de_software.service.MensajeService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.Collection;
 
 @RestController
 @RequestMapping("/api/Message")
+@CrossOrigin
 public class MensajeController {
     
     private MensajeService mensajeService;
@@ -20,15 +19,35 @@ public class MensajeController {
     public MensajeController(MensajeService mensajeService) {
         this.mensajeService = mensajeService;
     }
-    
+
     @GetMapping("/all")
-    public ResponseEntity<?> buscarTodosLosMensajes(){
-        return ResponseEntity.ok(mensajeService.buscarTodosLosMensajes());
+    @ResponseStatus(HttpStatus.ACCEPTED)
+    public Collection<Mensaje> buscarTodasLosMensajes(){
+        return mensajeService.buscarTodosLosMensajes();
     }
-    
+
+    @GetMapping("/{id}")
+    @ResponseStatus(HttpStatus.ACCEPTED)
+    public Mensaje buscarMensajePorId(@PathVariable Long id){
+        return mensajeService.buscarPorId(id);
+    }
+
     @PostMapping("/save")
-    public ResponseEntity<?> guardarMensaje(@RequestBody Mensaje m){
-        return ResponseEntity.ok(mensajeService.guardarMensaje(m));
+    @ResponseStatus(HttpStatus.CREATED)
+    public Mensaje guardarMensaje(@RequestBody Mensaje c){
+        return mensajeService.guardarMensaje(c);
+    }
+
+    @PutMapping("/update")
+    @ResponseStatus(HttpStatus.ACCEPTED)
+    public Mensaje actualizarMensaje(@RequestBody Mensaje c){
+        return mensajeService.actualizarMensaje(c);
+    }
+
+    @DeleteMapping("/{id}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    public Boolean eliminarMensaje(@PathVariable Long id){
+        return mensajeService.eliminarMensajePorId(id);
     }
     
 }

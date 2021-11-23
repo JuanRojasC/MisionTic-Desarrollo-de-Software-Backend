@@ -1,7 +1,6 @@
 package com.misiontic.backend_desarrollo_de_software.service;
 
 import com.misiontic.backend_desarrollo_de_software.model.Categoria;
-import com.misiontic.backend_desarrollo_de_software.model.Categoria;
 import com.misiontic.backend_desarrollo_de_software.repository.CategoriaRepository;
 import lombok.extern.log4j.Log4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,13 +20,14 @@ public class CategoriaService {
         this.categoriaRepository = categoriaRepository;
     }
 
-//    public Categoria buscarPorId(Long id){
-//        Optional<Categoria> categoria = categoriaRepository.findById(id);
-//        if(categoria.isEmpty()){
-//            return null;
-//        }
-//        return categoria.get();
-//    }
+    public Categoria buscarPorId(Long id){
+        Optional<Categoria> categoria = categoriaRepository.findById(id);
+        if(categoria.isEmpty()){
+            return null;
+        }
+        log.info("Categoria con id: " + id + " buscado");
+        return categoria.get();
+    }
 
     public Categoria guardarCategoria(Categoria c){
         try{
@@ -40,16 +40,25 @@ public class CategoriaService {
         }
     }
 
-//    public Categoria actualizarCategoria(Categoria c){
-//        if(buscarPorId(c.getId()) != null){
-//            return categoriaRepository.save(c);
-//        }
-//        return null;
-//    }
-//
-//    public void eliminarCategoriaPorId(Long id){
-//        categoriaRepository.deleteById(id);
-//    }
+    public Categoria actualizarCategoria(Categoria c){
+        Optional<Categoria> categoria = categoriaRepository.findById(c.getId());
+        if(!categoria.isEmpty()){
+            c.setPartyrooms(categoria.get().getPartyrooms());
+            log.info("Categorias con id: " + c.getId() + " actualizada");
+            return categoriaRepository.save(c);
+        }
+        return null;
+    }
+
+    public Boolean eliminarCategoriaPorId(Long id){
+        try{
+            categoriaRepository.deleteById(id);
+            log.info("Categoria con id: " + id + " eliminada");
+            return true;
+        }catch (Exception ex){
+            return false;
+        }
+    }
 
     public Collection<Categoria> buscarTodasLasCategorias(){
         log.info("Todas las categorias han sido buscadas");

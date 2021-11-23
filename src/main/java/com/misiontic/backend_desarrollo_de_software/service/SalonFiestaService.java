@@ -4,11 +4,6 @@
  * and open the template in the editor.
  */
 package com.misiontic.backend_desarrollo_de_software.service;
-
-/**
- *
- * @author Iván Dueñas
- */
 import com.misiontic.backend_desarrollo_de_software.model.SalonFiesta;
 import com.misiontic.backend_desarrollo_de_software.repository.SalonFiestaRepository;
 import java.util.Collection;
@@ -18,10 +13,6 @@ import lombok.extern.log4j.Log4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-/**
- *
- * @author Iván Dueñas
- */
 
 @Service
 @Log4j
@@ -56,22 +47,30 @@ public class SalonFiestaService {
     }
     
     public SalonFiesta actualizarSalonFiesta(SalonFiesta c){
-        if(buscarPorId(c.getId()) != null){
-            SalonFiesta salonFiesta = new SalonFiesta();
+        Optional<SalonFiesta> salonFiesta = salonFiestaRepository.findById(c.getId());
+        if(!salonFiesta.isEmpty()){
             try{
-                salonFiesta = salonFiestaRepository.save(c);
+                SalonFiesta salonFiestaEncontrado = salonFiesta.get();
+                c.setMessages(salonFiestaEncontrado.getMessages());
+                c.setReservations(salonFiestaEncontrado.getReservations());
+                SalonFiesta salonFiestaRespnse = salonFiestaRepository.save(c);
                 log.info("Salon de fiesta con id: " + c.getId() + " ha sido actualizado");
+                return salonFiestaRespnse;
             }catch (Exception e){
                 log.info("Salon de fiesta con id: " + c.getId() + " no pudo ser actualizado -- ERROR: " + e.getMessage());
             }
-            return salonFiesta;
         }
         return null;
     }
 
-    public void eliminarSalonFiestaPorId(Long id){
-        log.info("Salon de fiesta con id: " + id + " ha sido eliminado");
-        salonFiestaRepository.deleteById(id);
+    public Boolean eliminarSalonFiestaPorId(Long id){
+        try{
+            salonFiestaRepository.deleteById(id);
+            log.info("Salon de fiesta con id: " + id + " ha sido eliminado");
+            return true;
+        }catch (Exception ex){
+            return false;
+        }
     }
     
     public Collection<SalonFiesta> buscarTodosLosSalones(){
