@@ -53,6 +53,7 @@ public class SalonFiestaService {
                 SalonFiesta salonFiestaEncontrado = salonFiesta.get();
                 c.setMessages(salonFiestaEncontrado.getMessages());
                 c.setReservations(salonFiestaEncontrado.getReservations());
+                c.setCategory(salonFiestaEncontrado.getCategory());
                 SalonFiesta salonFiestaRespnse = salonFiestaRepository.save(c);
                 log.info("Salon de fiesta con id: " + c.getId() + " ha sido actualizado");
                 return salonFiestaRespnse;
