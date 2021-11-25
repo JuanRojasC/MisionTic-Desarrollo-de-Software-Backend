@@ -7,6 +7,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Collection;
+import org.springframework.http.ResponseEntity;
 
 @RestController
 @RequestMapping("/api/Admin")
@@ -21,25 +22,25 @@ public class UsuariosAdminController {
     }
 
     @GetMapping("/all")
-    @ResponseStatus(HttpStatus.ACCEPTED)
+    @ResponseStatus(HttpStatus.OK)
     public Collection<UsuariosAdmin> buscarTodasLasUsuariosAdmins(){
         return usuariosAdminService.buscarTodosLosUsuariosAdmin();
     }
 
     @GetMapping("/{id}")
-    @ResponseStatus(HttpStatus.ACCEPTED)
+    @ResponseStatus(HttpStatus.OK)
     public UsuariosAdmin buscarUsuariosAdminPorId(@PathVariable Long id){
         return usuariosAdminService.buscarPorId(id);
     }
 
     @PostMapping("/save")
-    @ResponseStatus(HttpStatus.CREATED)
-    public UsuariosAdmin guardarUsuariosAdmin(@RequestBody UsuariosAdmin c){
-        return usuariosAdminService.guardarUsuarioAdmin(c);
+    public ResponseEntity<?> guardarUsuariosAdmin(@RequestBody UsuariosAdmin c){
+        usuariosAdminService.guardarUsuarioAdmin(c);
+        return ResponseEntity.status(201).build();
     }
 
     @PutMapping("/update")
-    @ResponseStatus(HttpStatus.ACCEPTED)
+    @ResponseStatus(HttpStatus.CREATED)
     public UsuariosAdmin actualizarUsuariosAdmin(@RequestBody UsuariosAdmin c){
         return usuariosAdminService.actualizarUsuarioAdmin(c);
     }

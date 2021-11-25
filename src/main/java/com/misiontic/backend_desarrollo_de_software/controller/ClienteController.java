@@ -7,37 +7,38 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Collection;
+import org.springframework.http.ResponseEntity;
 
 @RestController
 @RequestMapping("/api/Client")
 @CrossOrigin
 public class ClienteController {
 
-    private ClienteService clienteService;
+     private ClienteService clienteService;
 
     @Autowired
     public ClienteController(ClienteService clienteService) {this.clienteService = clienteService;}
 
     @GetMapping("/all")
-    @ResponseStatus(HttpStatus.ACCEPTED)
+    @ResponseStatus(HttpStatus.OK)
     public Collection<Cliente> buscarTodasLosClientes(){
         return clienteService.buscarTodosLosClientes();
     }
 
     @GetMapping("/{id}")
-    @ResponseStatus(HttpStatus.ACCEPTED)
+    @ResponseStatus(HttpStatus.OK)
     public Cliente buscarClientePorId(@PathVariable Long id){
         return clienteService.buscarPorId(id);
     }
 
     @PostMapping("/save")
-    @ResponseStatus(HttpStatus.CREATED)
-    public Cliente guardarCliente(@RequestBody Cliente c){
-        return clienteService.guardarCliente(c);
+    public ResponseEntity<?> guardarCliente(@RequestBody Cliente c){
+        clienteService.guardarCliente(c);
+        return ResponseEntity.status(201).build();
     }
 
     @PutMapping("/update")
-    @ResponseStatus(HttpStatus.ACCEPTED)
+    @ResponseStatus(HttpStatus.CREATED)
     public Cliente actualizarCliente(@RequestBody Cliente c){
         return clienteService.actualizarCliente(c);
     }

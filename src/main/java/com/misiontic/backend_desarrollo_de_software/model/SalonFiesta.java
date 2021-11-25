@@ -13,12 +13,12 @@ public class SalonFiesta {
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     private Long id;
+    
+    @Column(name = "nombre", length = 45 )
+    private String name;
 
     @Column(name = "propietario", length = 45)
     private String owner;
-
-    @Column(name = "nombre", length = 45 )
-    private String name;
 
     @Column(name = "capacity")
     private int capacity;

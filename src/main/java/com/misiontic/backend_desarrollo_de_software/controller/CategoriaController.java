@@ -7,6 +7,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Collection;
+import org.springframework.http.ResponseEntity;
 
 @RestController
 @RequestMapping("/api/Category")
@@ -21,25 +22,25 @@ public class CategoriaController {
     }
 
     @GetMapping("/all")
-    @ResponseStatus(HttpStatus.ACCEPTED)
+    @ResponseStatus(HttpStatus.OK)
     public Collection<Categoria> buscarTodasLasCategorias(){
         return categoriaService.buscarTodasLasCategorias();
     }
 
     @GetMapping("/{id}")
-    @ResponseStatus(HttpStatus.ACCEPTED)
+    @ResponseStatus(HttpStatus.OK)
     public Categoria buscarCategoriaPorId(@PathVariable Long id){
         return categoriaService.buscarPorId(id);
     }
 
     @PostMapping("/save")
-    @ResponseStatus(HttpStatus.CREATED)
-    public Categoria guardarCategoria(@RequestBody Categoria c){
-        return categoriaService.guardarCategoria(c);
+    public ResponseEntity<?> guardarCategoria(@RequestBody Categoria c){
+        categoriaService.guardarCategoria(c);
+        return ResponseEntity.status(201).build();
     }
 
     @PutMapping("/update")
-    @ResponseStatus(HttpStatus.ACCEPTED)
+    @ResponseStatus(HttpStatus.CREATED)
     public Categoria actualizarCategoria(@RequestBody Categoria c){
         return categoriaService.actualizarCategoria(c);
     }

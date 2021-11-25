@@ -7,6 +7,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Collection;
+import org.springframework.http.ResponseEntity;
 
 @RestController
 @RequestMapping("/api/Message")
@@ -21,25 +22,25 @@ public class MensajeController {
     }
 
     @GetMapping("/all")
-    @ResponseStatus(HttpStatus.ACCEPTED)
+    @ResponseStatus(HttpStatus.OK)
     public Collection<Mensaje> buscarTodasLosMensajes(){
         return mensajeService.buscarTodosLosMensajes();
     }
 
     @GetMapping("/{id}")
-    @ResponseStatus(HttpStatus.ACCEPTED)
+    @ResponseStatus(HttpStatus.OK)
     public Mensaje buscarMensajePorId(@PathVariable Long id){
         return mensajeService.buscarPorId(id);
     }
 
     @PostMapping("/save")
-    @ResponseStatus(HttpStatus.CREATED)
-    public Mensaje guardarMensaje(@RequestBody Mensaje c){
-        return mensajeService.guardarMensaje(c);
+    public ResponseEntity<?> guardarMensaje(@RequestBody Mensaje c){
+        mensajeService.guardarMensaje(c);
+        return ResponseEntity.status(201).build();
     }
 
     @PutMapping("/update")
-    @ResponseStatus(HttpStatus.ACCEPTED)
+    @ResponseStatus(HttpStatus.CREATED)
     public Mensaje actualizarMensaje(@RequestBody Mensaje c){
         return mensajeService.actualizarMensaje(c);
     }

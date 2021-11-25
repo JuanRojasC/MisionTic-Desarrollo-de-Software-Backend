@@ -7,6 +7,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Collection;
+import org.springframework.http.ResponseEntity;
 
 @RestController
 @RequestMapping("/api/Reservation")
@@ -21,25 +22,25 @@ public class ReservaController {
     }
 
     @GetMapping("/all")
-    @ResponseStatus(HttpStatus.ACCEPTED)
+    @ResponseStatus(HttpStatus.OK)
     public Collection<Reserva> buscarTodasLasReservas(){
         return reservaService.buscarTodasLasReservas();
     }
 
     @GetMapping("/{id}")
-    @ResponseStatus(HttpStatus.ACCEPTED)
+    @ResponseStatus(HttpStatus.OK)
     public Reserva buscarReservaPorId(@PathVariable Long id){
         return reservaService.buscarPorId(id);
     }
 
     @PostMapping("/save")
-    @ResponseStatus(HttpStatus.CREATED)
-    public Reserva guardarReserva(@RequestBody Reserva c){
-        return reservaService.guardarReserva(c);
+    public ResponseEntity<?> guardarReserva(@RequestBody Reserva c){
+        reservaService.guardarReserva(c);
+        return ResponseEntity.status(201).build();
     }
 
     @PutMapping("/update")
-    @ResponseStatus(HttpStatus.ACCEPTED)
+    @ResponseStatus(HttpStatus.CREATED)
     public Reserva actualizarReserva(@RequestBody Reserva c){
         return reservaService.actualizarReserva(c);
     }

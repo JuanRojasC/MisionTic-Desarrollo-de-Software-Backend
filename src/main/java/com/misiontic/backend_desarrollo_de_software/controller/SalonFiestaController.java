@@ -7,6 +7,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Collection;
+import org.springframework.http.ResponseEntity;
 
 @RestController
 @RequestMapping("/api/Partyroom")
@@ -21,25 +22,25 @@ public class SalonFiestaController {
     }
 
     @GetMapping("/all")
-    @ResponseStatus(HttpStatus.ACCEPTED)
+    @ResponseStatus(HttpStatus.OK)
     public Collection<SalonFiesta> buscarTodasLasSalonFiestas(){
         return salonFiestaService. buscarTodosLosSalones();
     }
 
     @GetMapping("/{id}")
-    @ResponseStatus(HttpStatus.ACCEPTED)
+    @ResponseStatus(HttpStatus.OK)
     public SalonFiesta buscarSalonFiestaPorId(@PathVariable Long id){
         return salonFiestaService.buscarPorId(id);
     }
 
     @PostMapping("/save")
-    @ResponseStatus(HttpStatus.CREATED)
-    public SalonFiesta guardarSalonFiesta(@RequestBody SalonFiesta c){
-        return salonFiestaService.guardarSalonFiesta(c);
+    public ResponseEntity<?> guardarSalonFiesta(@RequestBody SalonFiesta c){
+        salonFiestaService.guardarSalonFiesta(c);
+        return ResponseEntity.status(201).build();
     }
 
     @PutMapping("/update")
-    @ResponseStatus(HttpStatus.ACCEPTED)
+    @ResponseStatus(HttpStatus.CREATED)
     public SalonFiesta actualizarSalonFiesta(@RequestBody SalonFiesta c){
         return salonFiestaService.actualizarSalonFiesta(c);
     }
@@ -49,5 +50,4 @@ public class SalonFiestaController {
     public Boolean eliminarSalonFiesta(@PathVariable Long id){
         return salonFiestaService.eliminarSalonFiestaPorId(id);
     }
-
 }
