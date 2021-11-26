@@ -11,7 +11,7 @@ import org.springframework.http.ResponseEntity;
 
 @RestController
 @RequestMapping("/api/Admin")
-@CrossOrigin
+@CrossOrigin(origins = "*", methods= {RequestMethod.GET,RequestMethod.POST,RequestMethod.PUT,RequestMethod.DELETE})
 public class UsuariosAdminController {
 
     private UsuariosAdminService usuariosAdminService;
@@ -36,7 +36,7 @@ public class UsuariosAdminController {
     @PostMapping("/save")
     public ResponseEntity<?> guardarUsuariosAdmin(@RequestBody UsuariosAdmin c){
         usuariosAdminService.guardarUsuarioAdmin(c);
-        return ResponseEntity.status(201).build();
+        return ResponseEntity.status(201).body(c);
     }
 
     @PutMapping("/update")

@@ -11,7 +11,7 @@ import org.springframework.http.ResponseEntity;
 
 @RestController
 @RequestMapping("/api/Client")
-@CrossOrigin
+@CrossOrigin(origins = "*", methods= {RequestMethod.GET,RequestMethod.POST,RequestMethod.PUT,RequestMethod.DELETE})
 public class ClienteController {
 
      private ClienteService clienteService;
@@ -34,7 +34,7 @@ public class ClienteController {
     @PostMapping("/save")
     public ResponseEntity<?> guardarCliente(@RequestBody Cliente c){
         clienteService.guardarCliente(c);
-        return ResponseEntity.status(201).build();
+        return ResponseEntity.status(201).body(c);
     }
 
     @PutMapping("/update")

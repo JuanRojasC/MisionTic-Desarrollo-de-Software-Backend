@@ -1200,3 +1200,106 @@
 [2021-22-19 18:22:23] [INFO ] [SalonFiestaService:50] Salon de Fiesta con id: 1 ha sido guardado
 [2021-22-19 18:22:37] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
 >>>>>>> b18f223f0dcecf1fd45222c58586ff16b82f9ffe
+[2021-28-26 09:28:13] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-28-26 09:28:29] [INFO ] [ClienteService:35] Cliente con id: 1 ha sido guardado
+[2021-30-26 09:30:23] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-30-26 09:30:32] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-30-26 09:30:34] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-30-26 09:30:35] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-30-26 09:30:48] [INFO ] [ClienteService:35] Cliente con id: 2 ha sido guardado
+[2021-31-26 09:31:04] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-31-26 09:31:17] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-31-26 09:31:28] [INFO ] [ClienteService:35] Cliente con id: 3 ha sido guardado
+[2021-31-26 09:31:43] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-31-26 09:31:59] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-32-26 09:32:08] [INFO ] [ClienteService:35] Cliente con id: 4 ha sido guardado
+[2021-32-26 09:32:16] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-36-26 09:36:28] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-36-26 09:36:40] [INFO ] [ClienteService:35] Cliente con id: 1 ha sido guardado
+[2021-36-26 09:36:45] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-36-26 09:36:51] [INFO ] [CategoriaService:35] Categoria con id: 1 ha sido guardada
+[2021-36-26 09:36:55] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-36-26 09:36:55] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-37-26 09:37:07] [INFO ] [SalonFiestaService:41] Salon de Fiesta con id: 1 ha sido guardado
+[2021-37-26 09:37:11] [INFO ] [ReservaService:66] Todas las reservas han sido buscadas
+[2021-37-26 09:37:11] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-37-26 09:37:11] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-37-26 09:37:14] [INFO ] [MensajeService:42] Todos los mensajes han sido buscados
+[2021-37-26 09:37:14] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-37-26 09:37:14] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-37-26 09:37:19] [INFO ] [MensajeService:24] Mensaje con id: 1 ha sido guardado
+[2021-37-26 09:37:21] [INFO ] [ReservaService:66] Todas las reservas han sido buscadas
+[2021-37-26 09:37:21] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-37-26 09:37:21] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-37-26 09:37:36] [INFO ] [ReservaService:25] Reserva con id: 1 ha sido guardada
+[2021-37-26 09:37:41] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-37-26 09:37:42] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-37-26 09:37:46] [INFO ] [ClienteService:47] Cliente con id: 1 actualizado
+[2021-37-26 09:37:46] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-37-26 09:37:48] [INFO ] [ClienteService:28] Cliente con id: 1 buscada
+[2021-37-26 09:37:52] [INFO ] [MensajeService:42] Todos los mensajes han sido buscados
+[2021-37-26 09:37:52] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-37-26 09:37:52] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-37-26 09:37:53] [INFO ] [MensajeService:37] Mensaje con id: 1 buscado
+[2021-37-26 09:37:56] [INFO ] [MensajeService:49] Mensajes con id: 1 actualizad0
+[2021-37-26 09:37:56] [INFO ] [MensajeService:42] Todos los mensajes han sido buscados
+[2021-37-26 09:37:56] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-37-26 09:37:56] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-37-26 09:37:58] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-37-26 09:37:58] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-37-26 09:37:59] [INFO ] [SalonFiestaService:34] Salon de fiesta con id: 1 ha sido encontrado
+[2021-38-26 09:38:05] [INFO ] [SalonFiestaService:58] Salon de fiesta con id: 1 ha sido actualizado
+[2021-38-26 09:38:05] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-38-26 09:38:05] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-38-26 09:38:08] [INFO ] [ReservaService:66] Todas las reservas han sido buscadas
+[2021-38-26 09:38:08] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-38-26 09:38:08] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-38-26 09:38:09] [INFO ] [ReservaService:39] Reserva con id: 1 buscado
+[2021-38-26 09:38:16] [INFO ] [ReservaService:49] Reservas con id: 1 actualizada
+[2021-38-26 09:38:16] [INFO ] [ReservaService:66] Todas las reservas han sido buscadas
+[2021-38-26 09:38:16] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-38-26 09:38:16] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-38-26 09:38:24] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-38-26 09:38:26] [INFO ] [CategoriaService:28] Categoria con id: 1 buscado
+[2021-39-26 09:39:02] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-39-26 09:39:03] [INFO ] [CategoriaService:28] Categoria con id: 1 buscado
+[2021-39-26 09:39:11] [INFO ] [CategoriaService:47] Categorias con id: 1 actualizada
+[2021-39-26 09:39:11] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-39-26 09:39:19] [INFO ] [ReservaService:66] Todas las reservas han sido buscadas
+[2021-39-26 09:39:19] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-39-26 09:39:19] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-39-26 09:39:47] [INFO ] [ReservaService:66] Todas las reservas han sido buscadas
+[2021-39-26 09:39:47] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-39-26 09:39:47] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-39-26 09:39:50] [INFO ] [ReservaService:39] Reserva con id: 1 buscado
+[2021-40-26 09:40:02] [INFO ] [ReservaService:49] Reservas con id: 1 actualizada
+[2021-40-26 09:40:02] [INFO ] [ReservaService:66] Todas las reservas han sido buscadas
+[2021-40-26 09:40:02] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-40-26 09:40:02] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-40-26 09:40:07] [INFO ] [ReservaService:58] Reserva con id: 1 eliminada
+[2021-40-26 09:40:07] [INFO ] [ReservaService:66] Todas las reservas han sido buscadas
+[2021-40-26 09:40:07] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-40-26 09:40:07] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-40-26 09:40:10] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-40-26 09:40:12] [INFO ] [ClienteService:56] Cliente con id: 1 eliminado
+[2021-40-26 09:40:12] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-40-26 09:40:14] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-40-26 09:40:14] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-40-26 09:40:15] [INFO ] [SalonFiestaService:70] Salon de fiesta con id: 1 ha sido eliminado
+[2021-40-26 09:40:15] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-40-26 09:40:15] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-40-26 09:40:17] [INFO ] [ReservaService:66] Todas las reservas han sido buscadas
+[2021-40-26 09:40:17] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-40-26 09:40:17] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-40-26 09:40:19] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-40-26 09:40:19] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-40-26 09:40:21] [INFO ] [MensajeService:42] Todos los mensajes han sido buscados
+[2021-40-26 09:40:21] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-40-26 09:40:21] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-40-26 09:40:23] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-40-26 09:40:25] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-40-26 09:40:30] [INFO ] [CategoriaService:56] Categoria con id: 1 eliminada
+[2021-40-26 09:40:30] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-40-26 09:40:33] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-40-26 09:40:33] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-40-26 09:40:36] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas

@@ -11,7 +11,7 @@ import org.springframework.http.ResponseEntity;
 
 @RestController
 @RequestMapping("/api/Partyroom")
-@CrossOrigin
+@CrossOrigin(origins = "*", methods= {RequestMethod.GET,RequestMethod.POST,RequestMethod.PUT,RequestMethod.DELETE})
 public class SalonFiestaController {
     
    private SalonFiestaService salonFiestaService;
@@ -36,7 +36,7 @@ public class SalonFiestaController {
     @PostMapping("/save")
     public ResponseEntity<?> guardarSalonFiesta(@RequestBody SalonFiesta c){
         salonFiestaService.guardarSalonFiesta(c);
-        return ResponseEntity.status(201).build();
+        return ResponseEntity.status(201).body(c);
     }
 
     @PutMapping("/update")

@@ -11,7 +11,7 @@ import org.springframework.http.ResponseEntity;
 
 @RestController
 @RequestMapping("/api/Reservation")
-@CrossOrigin
+@CrossOrigin(origins = "*", methods= {RequestMethod.GET,RequestMethod.POST,RequestMethod.PUT,RequestMethod.DELETE})
 public class ReservaController {
     
     private ReservaService reservaService;
@@ -36,7 +36,7 @@ public class ReservaController {
     @PostMapping("/save")
     public ResponseEntity<?> guardarReserva(@RequestBody Reserva c){
         reservaService.guardarReserva(c);
-        return ResponseEntity.status(201).build();
+        return ResponseEntity.status(201).body(c);
     }
 
     @PutMapping("/update")

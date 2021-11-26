@@ -13,7 +13,7 @@ public class SalonFiesta {
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     private Long id;
-    
+
     @Column(name = "nombre", length = 45 )
     private String name;
 
@@ -22,7 +22,7 @@ public class SalonFiesta {
 
     @Column(name = "capacity")
     private int capacity;
-    
+
     @Column(name = "descripcion", length = 250)
     private String description;
 

@@ -11,7 +11,7 @@ import org.springframework.http.ResponseEntity;
 
 @RestController
 @RequestMapping("/api/Category")
-@CrossOrigin
+@CrossOrigin(origins = "*", methods= {RequestMethod.GET,RequestMethod.POST,RequestMethod.PUT,RequestMethod.DELETE})
 public class CategoriaController {
 
     private CategoriaService categoriaService;
@@ -36,7 +36,7 @@ public class CategoriaController {
     @PostMapping("/save")
     public ResponseEntity<?> guardarCategoria(@RequestBody Categoria c){
         categoriaService.guardarCategoria(c);
-        return ResponseEntity.status(201).build();
+        return ResponseEntity.status(201).body(c);
     }
 
     @PutMapping("/update")
