@@ -66,4 +66,22 @@ public class ReservaService {
         return reservaRepository.findAll();
     }
 
+    /*1. Cantidad de reservas en un tiempo determinado. */
+    public List<Reserva> obtenerPeriodoReservas(String fechaA, String fechaB) {
+        String pattern = "yyyy-MM-dd";
+        SimpleDateFormat parser= new SimpleDateFormat(pattern);
+        Date a = new Date();
+        Date b = new Date();
+        try {
+            a = parser.parse(fechaA);
+            b = parser.parse(fechaB);
+        } catch (ParseException e){
+            e.printStackTrace();
+        }
+        if(a.before(b)){
+            return reservaRepository.obtenerPeriodoReserva(a,b);
+        } else {
+            return new ArrayList<>();
+        }
+    }
 }

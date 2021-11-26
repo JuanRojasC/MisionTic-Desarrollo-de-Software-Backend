@@ -51,4 +51,9 @@ public class ReservaController {
         return reservaService.eliminarReservaPorId(id);
     }
 
+    /*1. Cantidad de reservas en un tiempo determinado. */
+    @GetMapping("/reporte-fechas/{fechaUno}/{fechaDos}")
+    public List<Reserva> obtenerReservasEntreFechas(@PathVariable("fechaUno") String fechaUno, @PathVariable("fechaDos") String fechaDos) {
+        return reservaService.obtenerPeriodoReservas(fechaUno, fechaDos);
+    }
 }

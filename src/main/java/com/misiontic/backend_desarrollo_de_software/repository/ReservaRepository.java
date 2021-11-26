@@ -6,4 +6,6 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface ReservaRepository extends JpaRepository<Reserva, Long> {
+    /*1. Cantidad de reservas en un tiempo determinado. */
+    List<Reserva> obtenerPeriodoReserva(Date a, Date b);
 }
