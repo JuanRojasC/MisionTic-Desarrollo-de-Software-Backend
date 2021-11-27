@@ -1,13 +1,17 @@
 package com.misiontic.backend_desarrollo_de_software.service;
 
+import com.misiontic.backend_desarrollo_de_software.model.Cliente;
 import com.misiontic.backend_desarrollo_de_software.model.Reserva;
 import com.misiontic.backend_desarrollo_de_software.repository.ReservaRepository;
+import com.misiontic.backend_desarrollo_de_software.vo.InfomeCliente;
+import com.misiontic.backend_desarrollo_de_software.vo.InformeReservas;
 import lombok.extern.log4j.Log4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.Collection;
-import java.util.Optional;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 @Service
 @Log4j
@@ -69,7 +73,7 @@ public class ReservaService {
     /*1. Cantidad de reservas en un tiempo determinado. */
     public List<Reserva> obtenerPeriodoReservas(String fechaA, String fechaB) {
         String pattern = "yyyy-MM-dd";
-        SimpleDateFormat parser= new SimpleDateFormat(pattern);
+        SimpleDateFormat parser = new SimpleDateFormat(pattern);
         Date a = new Date();
         Date b = new Date();
         try {
@@ -79,9 +83,26 @@ public class ReservaService {
             e.printStackTrace();
         }
         if(a.before(b)){
-            return reservaRepository.obtenerPeriodoReserva(a,b);
+            return reservaRepository.findBookingsByRangeDate(a,b);
         } else {
             return new ArrayList<>();
         }
+    }
+
+    /*2. Cantidad de reservas completadas y canceladas*/
+    public InformeReservas obtenerReservasCompletadasYCanceladas(){
+        Integer reservasCompletadas = reservaRepository.findBookingByStatus("completed").size();
+        Integer reservasCanceladas = reservaRepository.findBookingByStatus("cancelled").size();
+        return new InformeReservas(reservasCompletadas, reservasCanceladas);
+    }
+
+    /*3. Agrupar reservas por cliente y ordernar en forma descenndente*/
+    public List<InfomeCliente> obtenerReservasCompletadasPorCliente(){
+        List<Object[]> results = reservaRepository.sortBookingsCompletedByClient();
+        List<InfomeCliente> clients = new ArrayList<>();
+        for(Object[] result : results){
+            clients.add(new InfomeCliente(((Long) result[0]).intValue(), (Cliente) result[1]));
+        }
+        return clients;
     }
 }

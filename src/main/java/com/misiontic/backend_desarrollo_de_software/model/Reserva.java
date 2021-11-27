@@ -21,7 +21,7 @@ public class Reserva {
     private Date devolutionDate;
 
     @Column(name = "estado", length = 45 )
-    private String status = "created"; // Valor por defecto
+    private String status = "completed"; // Valor por defecto
 
     @ManyToOne
     @JsonIgnoreProperties("reservations")

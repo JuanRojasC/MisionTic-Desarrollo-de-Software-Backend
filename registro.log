@@ -1303,3 +1303,247 @@
 [2021-40-26 09:40:33] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
 [2021-40-26 09:40:33] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
 [2021-40-26 09:40:36] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-03-26 15:03:10] [INFO ] [CategoriaService:35] Categoria con id: 1 ha sido guardada
+[2021-03-26 15:03:20] [INFO ] [SalonFiestaService:41] Salon de Fiesta con id: 1 ha sido guardado
+[2021-03-26 15:03:23] [INFO ] [ClienteService:35] Cliente con id: 1 ha sido guardado
+[2021-03-26 15:03:27] [INFO ] [MensajeService:24] Mensaje con id: 1 ha sido guardado
+[2021-03-26 15:03:30] [INFO ] [ReservaService:25] Reserva con id: 1 ha sido guardada
+[2021-03-26 15:03:49] [INFO ] [ReservaService:25] Reserva con id: 2 ha sido guardada
+[2021-04-26 15:04:05] [INFO ] [ReservaService:25] Reserva con id: 3 ha sido guardada
+[2021-08-26 16:08:48] [INFO ] [CategoriaService:35] Categoria con id: 1 ha sido guardada
+[2021-08-26 16:08:50] [INFO ] [SalonFiestaService:41] Salon de Fiesta con id: 1 ha sido guardado
+[2021-08-26 16:08:53] [INFO ] [ClienteService:35] Cliente con id: 1 ha sido guardado
+[2021-08-26 16:08:55] [INFO ] [MensajeService:24] Mensaje con id: 1 ha sido guardado
+[2021-09-26 16:09:09] [INFO ] [ReservaService:27] Reserva con id: 1 ha sido guardada
+[2021-09-26 16:09:47] [INFO ] [ReservaService:27] Reserva con id: 2 ha sido guardada
+[2021-09-26 16:09:57] [INFO ] [ReservaService:27] Reserva con id: 3 ha sido guardada
+[2021-10-26 16:10:12] [ERROR] [ReservaService:30] Reserva con id: null no pudo ser guardada -- ERROR: could not execute statement; SQL [n/a]; constraint [FK6Q4O187QB5OT4G2661V5KMGHY]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2021-10-26 16:10:19] [ERROR] [ReservaService:30] Reserva con id: null no pudo ser guardada -- ERROR: could not execute statement; SQL [n/a]; constraint [FK6Q4O187QB5OT4G2661V5KMGHY]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2021-10-26 16:10:26] [ERROR] [ReservaService:30] Reserva con id: null no pudo ser guardada -- ERROR: could not execute statement; SQL [n/a]; constraint [FK6Q4O187QB5OT4G2661V5KMGHY]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2021-10-26 16:10:47] [INFO ] [ClienteService:35] Cliente con id: 2 ha sido guardado
+[2021-10-26 16:10:50] [INFO ] [ClienteService:35] Cliente con id: 3 ha sido guardado
+[2021-10-26 16:10:53] [INFO ] [ReservaService:27] Reserva con id: 7 ha sido guardada
+[2021-11-26 16:11:05] [INFO ] [ReservaService:27] Reserva con id: 8 ha sido guardada
+[2021-11-26 16:11:09] [INFO ] [ReservaService:27] Reserva con id: 9 ha sido guardada
+[2021-12-26 16:12:23] [INFO ] [ReservaService:41] Reserva con id: 1 buscado
+[2021-13-26 16:13:22] [INFO ] [ReservaService:51] Reservas con id: 1 actualizada
+[2021-13-26 16:13:26] [INFO ] [ReservaService:41] Reserva con id: 2 buscado
+[2021-13-26 16:13:41] [INFO ] [ReservaService:51] Reservas con id: 1 actualizada
+[2021-13-26 16:13:58] [INFO ] [ReservaService:51] Reservas con id: 2 actualizada
+[2021-14-26 16:14:06] [INFO ] [ReservaService:41] Reserva con id: 1 buscado
+[2021-14-26 16:14:10] [INFO ] [ReservaService:41] Reserva con id: 3 buscado
+[2021-14-26 16:14:27] [INFO ] [ReservaService:51] Reservas con id: 3 actualizada
+[2021-14-26 16:14:31] [INFO ] [ReservaService:41] Reserva con id: 7 buscado
+[2021-14-26 16:14:35] [INFO ] [ReservaService:41] Reserva con id: 7 buscado
+[2021-14-26 16:14:56] [INFO ] [ReservaService:51] Reservas con id: 7 actualizada
+[2021-15-26 16:15:21] [INFO ] [ReservaService:41] Reserva con id: 8 buscado
+[2021-15-26 16:15:35] [INFO ] [ReservaService:51] Reservas con id: 8 actualizada
+[2021-15-26 16:15:38] [INFO ] [ReservaService:41] Reserva con id: 9 buscado
+[2021-15-26 16:15:50] [INFO ] [ReservaService:51] Reservas con id: 9 actualizada
+[2021-17-26 16:17:17] [INFO ] [ReservaService:68] Todas las reservas han sido buscadas
+[2021-31-26 16:31:14] [INFO ] [CategoriaService:35] Categoria con id: 1 ha sido guardada
+[2021-31-26 16:31:16] [INFO ] [SalonFiestaService:41] Salon de Fiesta con id: 1 ha sido guardado
+[2021-31-26 16:31:18] [INFO ] [ClienteService:35] Cliente con id: 1 ha sido guardado
+[2021-31-26 16:31:19] [INFO ] [ClienteService:35] Cliente con id: 2 ha sido guardado
+[2021-31-26 16:31:19] [INFO ] [ClienteService:35] Cliente con id: 3 ha sido guardado
+[2021-31-26 16:31:22] [INFO ] [MensajeService:24] Mensaje con id: 1 ha sido guardado
+[2021-32-26 16:32:24] [INFO ] [ReservaService:27] Reserva con id: 1 ha sido guardada
+[2021-32-26 16:32:36] [INFO ] [ReservaService:27] Reserva con id: 2 ha sido guardada
+[2021-32-26 16:32:46] [INFO ] [ReservaService:27] Reserva con id: 3 ha sido guardada
+[2021-33-26 16:33:07] [INFO ] [ReservaService:27] Reserva con id: 4 ha sido guardada
+[2021-34-26 16:34:23] [ERROR] [ReservaService:30] Reserva con id: null no pudo ser guardada -- ERROR: could not execute statement; SQL [n/a]; constraint [FK6Q4O187QB5OT4G2661V5KMGHY]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2021-35-26 16:35:22] [INFO ] [CategoriaService:35] Categoria con id: 1 ha sido guardada
+[2021-35-26 16:35:24] [INFO ] [SalonFiestaService:41] Salon de Fiesta con id: 1 ha sido guardado
+[2021-35-26 16:35:26] [INFO ] [ClienteService:35] Cliente con id: 1 ha sido guardado
+[2021-35-26 16:35:27] [INFO ] [ClienteService:35] Cliente con id: 2 ha sido guardado
+[2021-35-26 16:35:27] [INFO ] [ClienteService:35] Cliente con id: 3 ha sido guardado
+[2021-35-26 16:35:30] [INFO ] [MensajeService:24] Mensaje con id: 1 ha sido guardado
+[2021-35-26 16:35:42] [INFO ] [ReservaService:27] Reserva con id: 2 ha sido guardada
+[2021-36-26 16:36:03] [INFO ] [ReservaService:27] Reserva con id: 3 ha sido guardada
+[2021-36-26 16:36:15] [INFO ] [ReservaService:27] Reserva con id: 4 ha sido guardada
+[2021-36-26 16:36:30] [INFO ] [ReservaService:27] Reserva con id: 5 ha sido guardada
+[2021-36-26 16:36:41] [INFO ] [ReservaService:27] Reserva con id: 6 ha sido guardada
+[2021-36-26 16:36:50] [INFO ] [ReservaService:27] Reserva con id: 7 ha sido guardada
+[2021-37-26 16:37:12] [INFO ] [ReservaService:51] Reservas con id: 7 actualizada
+[2021-49-26 16:49:49] [INFO ] [CategoriaService:35] Categoria con id: 1 ha sido guardada
+[2021-49-26 16:49:51] [INFO ] [SalonFiestaService:41] Salon de Fiesta con id: 1 ha sido guardado
+[2021-49-26 16:49:53] [INFO ] [SalonFiestaService:41] Salon de Fiesta con id: 2 ha sido guardado
+[2021-49-26 16:49:57] [INFO ] [ClienteService:35] Cliente con id: 1 ha sido guardado
+[2021-49-26 16:49:58] [INFO ] [ClienteService:35] Cliente con id: 2 ha sido guardado
+[2021-49-26 16:49:58] [INFO ] [ClienteService:35] Cliente con id: 3 ha sido guardado
+[2021-50-26 16:50:00] [INFO ] [MensajeService:24] Mensaje con id: 1 ha sido guardado
+[2021-50-26 16:50:10] [INFO ] [ReservaService:27] Reserva con id: 1 ha sido guardada
+[2021-51-26 16:51:49] [INFO ] [CategoriaService:35] Categoria con id: 1 ha sido guardada
+[2021-51-26 16:51:52] [INFO ] [SalonFiestaService:41] Salon de Fiesta con id: 1 ha sido guardado
+[2021-51-26 16:51:54] [INFO ] [ClienteService:35] Cliente con id: 1 ha sido guardado
+[2021-51-26 16:51:56] [INFO ] [MensajeService:24] Mensaje con id: 1 ha sido guardado
+[2021-52-26 16:52:05] [INFO ] [ReservaService:27] Reserva con id: 1 ha sido guardada
+[2021-56-26 16:56:18] [INFO ] [CategoriaService:35] Categoria con id: 1 ha sido guardada
+[2021-56-26 16:56:19] [INFO ] [SalonFiestaService:41] Salon de Fiesta con id: 1 ha sido guardado
+[2021-56-26 16:56:20] [INFO ] [ClienteService:35] Cliente con id: 1 ha sido guardado
+[2021-56-26 16:56:23] [INFO ] [MensajeService:24] Mensaje con id: 1 ha sido guardado
+[2021-56-26 16:56:25] [INFO ] [ReservaService:27] Reserva con id: 1 ha sido guardada
+[2021-56-26 16:56:26] [INFO ] [ReservaService:27] Reserva con id: 2 ha sido guardada
+[2021-02-26 17:02:44] [INFO ] [CategoriaService:35] Categoria con id: 1 ha sido guardada
+[2021-02-26 17:02:46] [INFO ] [SalonFiestaService:41] Salon de Fiesta con id: 1 ha sido guardado
+[2021-02-26 17:02:48] [INFO ] [ClienteService:35] Cliente con id: 1 ha sido guardado
+[2021-02-26 17:02:50] [INFO ] [MensajeService:24] Mensaje con id: 1 ha sido guardado
+[2021-02-26 17:02:55] [INFO ] [ReservaService:27] Reserva con id: 1 ha sido guardada
+[2021-02-26 17:02:58] [INFO ] [ReservaService:27] Reserva con id: 2 ha sido guardada
+[2021-02-26 17:02:58] [INFO ] [ReservaService:27] Reserva con id: 3 ha sido guardada
+[2021-05-26 17:05:16] [INFO ] [CategoriaService:35] Categoria con id: 1 ha sido guardada
+[2021-05-26 17:05:17] [INFO ] [SalonFiestaService:41] Salon de Fiesta con id: 1 ha sido guardado
+[2021-05-26 17:05:19] [INFO ] [ClienteService:35] Cliente con id: 1 ha sido guardado
+[2021-05-26 17:05:20] [INFO ] [MensajeService:24] Mensaje con id: 1 ha sido guardado
+[2021-05-26 17:05:25] [INFO ] [ReservaService:27] Reserva con id: 1 ha sido guardada
+[2021-05-26 17:05:26] [INFO ] [ReservaService:27] Reserva con id: 2 ha sido guardada
+[2021-06-26 17:06:09] [INFO ] [CategoriaService:35] Categoria con id: 1 ha sido guardada
+[2021-06-26 17:06:11] [INFO ] [SalonFiestaService:41] Salon de Fiesta con id: 1 ha sido guardado
+[2021-06-26 17:06:12] [INFO ] [ClienteService:35] Cliente con id: 1 ha sido guardado
+[2021-06-26 17:06:14] [INFO ] [MensajeService:24] Mensaje con id: 1 ha sido guardado
+[2021-06-26 17:06:16] [INFO ] [ReservaService:28] Reserva con id: 1 ha sido guardada
+[2021-06-26 17:06:17] [INFO ] [ReservaService:28] Reserva con id: 2 ha sido guardada
+[2021-08-26 17:08:28] [INFO ] [CategoriaService:35] Categoria con id: 1 ha sido guardada
+[2021-08-26 17:08:29] [INFO ] [SalonFiestaService:41] Salon de Fiesta con id: 1 ha sido guardado
+[2021-08-26 17:08:31] [INFO ] [ClienteService:35] Cliente con id: 1 ha sido guardado
+[2021-08-26 17:08:33] [INFO ] [MensajeService:24] Mensaje con id: 1 ha sido guardado
+[2021-08-26 17:08:35] [INFO ] [ReservaService:28] Reserva con id: 1 ha sido guardada
+[2021-08-26 17:08:36] [INFO ] [ReservaService:28] Reserva con id: 2 ha sido guardada
+[2021-08-26 17:08:36] [INFO ] [ReservaService:28] Reserva con id: 3 ha sido guardada
+[2021-11-26 17:11:02] [INFO ] [CategoriaService:35] Categoria con id: 1 ha sido guardada
+[2021-11-26 17:11:03] [INFO ] [SalonFiestaService:41] Salon de Fiesta con id: 1 ha sido guardado
+[2021-11-26 17:11:05] [INFO ] [ClienteService:35] Cliente con id: 1 ha sido guardado
+[2021-11-26 17:11:06] [INFO ] [MensajeService:24] Mensaje con id: 1 ha sido guardado
+[2021-11-26 17:11:08] [INFO ] [ReservaService:28] Reserva con id: 1 ha sido guardada
+[2021-11-26 17:11:09] [INFO ] [ReservaService:28] Reserva con id: 2 ha sido guardada
+[2021-12-26 17:12:51] [INFO ] [CategoriaService:35] Categoria con id: 1 ha sido guardada
+[2021-12-26 17:12:52] [INFO ] [SalonFiestaService:41] Salon de Fiesta con id: 1 ha sido guardado
+[2021-12-26 17:12:53] [INFO ] [ClienteService:35] Cliente con id: 1 ha sido guardado
+[2021-12-26 17:12:56] [INFO ] [ReservaService:28] Reserva con id: 1 ha sido guardada
+[2021-12-26 17:12:56] [INFO ] [ReservaService:28] Reserva con id: 2 ha sido guardada
+[2021-12-26 17:12:57] [INFO ] [ReservaService:28] Reserva con id: 3 ha sido guardada
+[2021-13-26 17:13:49] [INFO ] [CategoriaService:35] Categoria con id: 1 ha sido guardada
+[2021-13-26 17:13:51] [INFO ] [SalonFiestaService:41] Salon de Fiesta con id: 1 ha sido guardado
+[2021-13-26 17:13:54] [INFO ] [ClienteService:35] Cliente con id: 1 ha sido guardado
+[2021-13-26 17:13:55] [INFO ] [ClienteService:35] Cliente con id: 2 ha sido guardado
+[2021-13-26 17:13:56] [INFO ] [ClienteService:35] Cliente con id: 3 ha sido guardado
+[2021-13-26 17:13:57] [INFO ] [MensajeService:24] Mensaje con id: 1 ha sido guardado
+[2021-14-26 17:14:37] [INFO ] [ReservaService:28] Reserva con id: 1 ha sido guardada
+[2021-16-26 17:16:06] [INFO ] [ReservaService:28] Reserva con id: 2 ha sido guardada
+[2021-16-26 17:16:20] [INFO ] [ReservaService:28] Reserva con id: 3 ha sido guardada
+[2021-16-26 17:16:32] [INFO ] [ReservaService:28] Reserva con id: 4 ha sido guardada
+[2021-16-26 17:16:45] [INFO ] [ReservaService:28] Reserva con id: 5 ha sido guardada
+[2021-16-26 17:16:54] [INFO ] [ReservaService:28] Reserva con id: 6 ha sido guardada
+[2021-17-26 17:17:29] [INFO ] [ReservaService:52] Reservas con id: 6 actualizada
+[2021-58-26 17:58:50] [INFO ] [CategoriaService:35] Categoria con id: 1 ha sido guardada
+[2021-58-26 17:58:52] [INFO ] [SalonFiestaService:41] Salon de Fiesta con id: 1 ha sido guardado
+[2021-58-26 17:58:54] [INFO ] [ClienteService:35] Cliente con id: 1 ha sido guardado
+[2021-58-26 17:58:55] [INFO ] [ClienteService:35] Cliente con id: 2 ha sido guardado
+[2021-58-26 17:58:55] [INFO ] [ClienteService:35] Cliente con id: 3 ha sido guardado
+[2021-59-26 17:59:26] [INFO ] [ReservaService:28] Reserva con id: 1 ha sido guardada
+[2021-59-26 17:59:36] [INFO ] [ReservaService:28] Reserva con id: 2 ha sido guardada
+[2021-59-26 17:59:47] [INFO ] [ReservaService:28] Reserva con id: 3 ha sido guardada
+[2021-00-26 18:00:30] [INFO ] [ReservaService:28] Reserva con id: 4 ha sido guardada
+[2021-00-26 18:00:38] [INFO ] [ReservaService:28] Reserva con id: 5 ha sido guardada
+[2021-00-26 18:00:49] [INFO ] [ReservaService:28] Reserva con id: 6 ha sido guardada
+[2021-01-26 18:01:02] [INFO ] [ReservaService:52] Reservas con id: 6 actualizada
+[2021-01-26 18:01:34] [INFO ] [ReservaService:28] Reserva con id: 7 ha sido guardada
+[2021-07-26 18:07:00] [INFO ] [SalonFiestaService:41] Salon de Fiesta con id: 1 ha sido guardado
+[2021-07-26 18:07:12] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-07-26 18:07:28] [INFO ] [ClienteService:35] Cliente con id: 1 ha sido guardado
+[2021-07-26 18:07:45] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-07-26 18:07:58] [INFO ] [ClienteService:35] Cliente con id: 2 ha sido guardado
+[2021-08-26 18:08:07] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-08-26 18:08:23] [INFO ] [ReservaService:28] Reserva con id: 1 ha sido guardada
+[2021-08-26 18:08:29] [INFO ] [ReservaService:69] Todas las reservas han sido buscadas
+[2021-09-26 18:09:02] [INFO ] [ReservaService:28] Reserva con id: 2 ha sido guardada
+[2021-09-26 18:09:10] [INFO ] [ReservaService:28] Reserva con id: 3 ha sido guardada
+[2021-09-26 18:09:18] [INFO ] [ReservaService:28] Reserva con id: 4 ha sido guardada
+[2021-09-26 18:09:27] [INFO ] [ReservaService:69] Todas las reservas han sido buscadas
+[2021-14-26 18:14:57] [INFO ] [SalonFiestaService:41] Salon de Fiesta con id: 1 ha sido guardado
+[2021-15-26 18:15:09] [INFO ] [ClienteService:35] Cliente con id: 1 ha sido guardado
+[2021-15-26 18:15:15] [INFO ] [ClienteService:35] Cliente con id: 2 ha sido guardado
+[2021-15-26 18:15:29] [INFO ] [ReservaService:28] Reserva con id: 1 ha sido guardada
+[2021-15-26 18:15:34] [INFO ] [ReservaService:28] Reserva con id: 2 ha sido guardada
+[2021-15-26 18:15:41] [INFO ] [ReservaService:28] Reserva con id: 3 ha sido guardada
+[2021-15-26 18:15:49] [INFO ] [ReservaService:28] Reserva con id: 4 ha sido guardada
+[2021-19-26 18:19:19] [INFO ] [ReservaService:69] Todas las reservas han sido buscadas
+[2021-19-26 18:19:19] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-19-26 18:19:19] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-23-26 18:23:27] [INFO ] [UsuariosAdminService:43] Todos los usuarios administradores han sido buscados
+[2021-28-26 18:28:56] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-28-26 18:28:56] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-29-26 18:29:20] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-29-26 18:29:20] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-29-26 18:29:53] [INFO ] [MensajeService:42] Todos los mensajes han sido buscados
+[2021-29-26 18:29:53] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-29-26 18:29:53] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-44-26 18:44:24] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-44-26 18:44:24] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-06-26 19:06:46] [INFO ] [MensajeService:42] Todos los mensajes han sido buscados
+[2021-06-26 19:06:46] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-06-26 19:06:46] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-09-26 19:09:44] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-10-26 19:10:39] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-13-26 19:13:04] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-01-26 20:01:43] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-01-26 20:01:43] [INFO ] [CategoriaService:64] Todas las categorias han sido buscadas
+[2021-12-26 20:12:47] [INFO ] [SalonFiestaService:41] Salon de Fiesta con id: 1 ha sido guardado
+[2021-12-26 20:12:49] [INFO ] [ClienteService:35] Cliente con id: 1 ha sido guardado
+[2021-12-26 20:12:51] [INFO ] [ClienteService:35] Cliente con id: 2 ha sido guardado
+[2021-12-26 20:12:55] [INFO ] [ReservaService:28] Reserva con id: 1 ha sido guardada
+[2021-12-26 20:12:56] [INFO ] [ReservaService:28] Reserva con id: 2 ha sido guardada
+[2021-12-26 20:12:58] [INFO ] [ReservaService:28] Reserva con id: 3 ha sido guardada
+[2021-12-26 20:12:59] [INFO ] [ReservaService:28] Reserva con id: 4 ha sido guardada
+[2021-13-26 20:13:12] [INFO ] [ReservaService:69] Todas las reservas han sido buscadas
+[2021-13-26 20:13:12] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-13-26 20:13:12] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-08-26 21:08:03] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-13-26 21:13:35] [INFO ] [MensajeService:42] Todos los mensajes han sido buscados
+[2021-13-26 21:13:35] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-13-26 21:13:35] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-13-26 21:13:38] [INFO ] [MensajeService:42] Todos los mensajes han sido buscados
+[2021-13-26 21:13:38] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-13-26 21:13:38] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-13-26 21:13:47] [INFO ] [MensajeService:42] Todos los mensajes han sido buscados
+[2021-13-26 21:13:47] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-13-26 21:13:47] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-13-26 21:13:47] [INFO ] [MensajeService:42] Todos los mensajes han sido buscados
+[2021-13-26 21:13:47] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-13-26 21:13:47] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-13-26 21:13:49] [INFO ] [MensajeService:42] Todos los mensajes han sido buscados
+[2021-13-26 21:13:49] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-13-26 21:13:49] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-13-26 21:13:50] [INFO ] [MensajeService:42] Todos los mensajes han sido buscados
+[2021-13-26 21:13:50] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-13-26 21:13:50] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-13-26 21:13:51] [INFO ] [MensajeService:42] Todos los mensajes han sido buscados
+[2021-13-26 21:13:51] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-13-26 21:13:51] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-13-26 21:13:52] [INFO ] [MensajeService:42] Todos los mensajes han sido buscados
+[2021-13-26 21:13:52] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-13-26 21:13:52] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-13-26 21:13:55] [INFO ] [MensajeService:42] Todos los mensajes han sido buscados
+[2021-13-26 21:13:55] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-13-26 21:13:55] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-13-26 21:13:56] [INFO ] [MensajeService:42] Todos los mensajes han sido buscados
+[2021-13-26 21:13:56] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-13-26 21:13:56] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-13-26 21:13:58] [INFO ] [MensajeService:42] Todos los mensajes han sido buscados
+[2021-13-26 21:13:58] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-13-26 21:13:58] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-13-26 21:13:59] [INFO ] [MensajeService:42] Todos los mensajes han sido buscados
+[2021-13-26 21:13:59] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-13-26 21:13:59] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-14-26 21:14:02] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-17-26 21:17:25] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-18-26 21:18:12] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-18-26 21:18:28] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-18-26 21:18:30] [INFO ] [ReservaService:69] Todas las reservas han sido buscadas
+[2021-18-26 21:18:30] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-18-26 21:18:30] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados
+[2021-18-26 21:18:32] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-19-26 21:19:22] [INFO ] [UsuariosAdminService:43] Todos los usuarios administradores han sido buscados
+[2021-19-26 21:19:25] [INFO ] [ReservaService:69] Todas las reservas han sido buscadas
+[2021-19-26 21:19:25] [INFO ] [SalonFiestaService:78] Todos los salones de fiesta han sido buscados
+[2021-19-26 21:19:25] [INFO ] [ClienteService:64] Todos lo clientes han sido buscados

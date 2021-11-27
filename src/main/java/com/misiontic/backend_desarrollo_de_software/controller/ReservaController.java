@@ -2,11 +2,15 @@ package com.misiontic.backend_desarrollo_de_software.controller;
 
 import com.misiontic.backend_desarrollo_de_software.model.Reserva;
 import com.misiontic.backend_desarrollo_de_software.service.ReservaService;
+import com.misiontic.backend_desarrollo_de_software.vo.InfomeCliente;
+import com.misiontic.backend_desarrollo_de_software.vo.InformeReservas;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Collection;
+import java.util.List;
+
 import org.springframework.http.ResponseEntity;
 
 @RestController
@@ -52,8 +56,20 @@ public class ReservaController {
     }
 
     /*1. Cantidad de reservas en un tiempo determinado. */
-    @GetMapping("/reporte-fechas/{fechaUno}/{fechaDos}")
+    @GetMapping("/report-dates/{fechaUno}/{fechaDos}")
     public List<Reserva> obtenerReservasEntreFechas(@PathVariable("fechaUno") String fechaUno, @PathVariable("fechaDos") String fechaDos) {
         return reservaService.obtenerPeriodoReservas(fechaUno, fechaDos);
+    }
+
+    /*2. Cantidad de reservas completadas y canceladas*/
+    @GetMapping("/report-status")
+    public InformeReservas obtenerReservasCompletadasYCanceladas(){
+        return reservaService.obtenerReservasCompletadasYCanceladas();
+    }
+
+    /*3. Agrupar reservas por cliente y ordernar en forma descenndente*/
+    @GetMapping("/report-clients")
+    public List<InfomeCliente> obtenerReservasCompletdasPorClientes(){
+        return reservaService.obtenerReservasCompletadasPorCliente();
     }
 }
